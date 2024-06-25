@@ -24,8 +24,8 @@ header{
 }
 header img{
     text-align: center;
-    width: 150px;
-    border-radius: 10px;
+    width: 200px;
+    border-radius: 15px;
     position: sticky;
 }
 header h1{
