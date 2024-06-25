@@ -8,19 +8,19 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: #0C243B;
+    color: aliceblue;
 }
 
 header{
-    background-color: rgba(137, 43, 226, 0.603);
-    color: white;
+    background-color: #1A3046;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     position: sticky;
-    top: 1px;
+    top: -1px;
 }
 header img{
     text-align: center;
@@ -32,16 +32,117 @@ header h1{
 nav{
     background-color: black;
     padding: 10px;
+    position: sticky;
+    top: 55px;
 }
 nav a{
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ffe0;
     
-    padding: 5px;
+    padding: 5px 10px;
+}
+nav a:hover{
+    border-radius: 30%;
+    background-color: #0C243B;
+    padding: 10px;
+    align-items: center;
 }
 
+
+main{
+    padding: 10px;
+    background-color: #1e4364;
+
+    min-width: 300px;
+    max-width: 1150px;
+    margin: auto;
+}
+main div{
+    padding: 10px;
+}
+main section h1{
+    padding: 5px;
+    font-size: 1.4em;
+}
+main section h2{
+    padding: 5px;
+    font-size: 1.4em;
+}
+main section p{
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+main section img{
+    width: 500px;
+    margin: 5px;
+    border-radius: 5px 55px;
+}
+
+main #sobre{
+    padding: 10px 5px 30px 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main #responsivo{
+    padding: 10px 5px 30px 10px;
+    background-color: #0C243B;
+    border-radius: 5px 55px;
+
+    display: flex;
+    align-items: center;
+}
+main #responsivo h3{
+    color: #98cfff;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+
+main #site{
+    padding: 10px 5px 30px 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+main #manutenção{
+    padding: 10px 5px 30px 10px;
+    background-color: #0C243B;
+    border-radius: 5px 55px;
+
+    display: flex;
+    align-items: center;
+}
+main #manutenção h3{
+    color: #98cfff;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+main #manutenção h5{
+    background-color: #98cfff;
+    color: #0C243B;
+    font-size: 2em;
+    width: 265px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+main #manutenção #ulimg{
+    display: flex;
+    align-items: center;
+}
+main #manutenção ul{
+    list-style-position: inside; /*deixar a lista organizada*/
+    margin-top: 10px;
+}
+main #manutenção #ulimg img{
+    width: 100px; 
+    padding-left: 50px;
+}
+
+
 footer{
-    background-color: rgba(137, 43, 226, 0.603);
+    background-color: #1A3046;
     color: white;
 
     display: flex;
