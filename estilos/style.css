@@ -1,0 +1,85 @@
+@charset "UTF8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+header{
+    background-color: rgba(137, 43, 226, 0.603);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 1px;
+}
+header img{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    
+    padding: 5px;
+}
+
+footer{
+    background-color: rgba(137, 43, 226, 0.603);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h1{
+    padding: 10px;
+}
+footer .local{
+    padding: 10px;
+}
+footer .local h2{
+    padding: 10px;
+}
+footer .local p{
+
+}
+footer .local div img{
+    width: 30px; height: 30px;
+    padding: 5px;
+}
+footer .local div a{
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+footer .local div a:hover{
+    text-decoration: underline;
+}
+
+footer .sociais h2{
+    padding: 10px;
+}
+footer .sociais img{
+    width: 50px; height: 50px;
+    padding: 5px;
+}
