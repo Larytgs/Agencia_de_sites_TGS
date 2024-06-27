@@ -55,7 +55,7 @@
 
     body{
         box-sizing: content-box;
-        width: 99.5%;    /*alinhar a borda de fora*/
+        width: 99%;    /*alinhar a borda de fora*/
         border: 2px solid red;
     }
 
@@ -69,21 +69,48 @@
     #navOculta{
         display: block;
         position: sticky;
+        top: -1px;
         text-align: center;
     }
 
     main{
         box-sizing: content-box;
-        width: 97%;    /*alinhar a borda de fora*/
+        width: 95.6%;    /*alinhar a borda de fora*/
         border: 2px solid red;
     }
 
+    main #responsivo{
+        display: inline-block;
+        text-align: center;
+    }
+
+    main #site{
+        display: inline-block;
+        text-align: center;
+    }
+    main #site img{
+        display: none;
+    }
+    main #site #imgSite{
+        display: block;
+        text-align: center;
+    }
+
+    main #manutenção{
+        display: inline-block;
+        text-align: center;
+    }
     main #manutenção h5{
         font-size: 1.5em;
+    }
+    main #manutenção #ulimg{
+        text-align: left;       
     }
     main #manutenção #ulimg img{
         display: none;
     }
+
+
 
     footer .sociais h2{
         display: none;
@@ -98,7 +125,7 @@
 
     body{
         box-sizing: content-box;
-        width: 99.5%;    /*alinhar a borda de fora*/
+        width: 98%;    /*alinhar a borda de fora*/
         border: 2px solid red;
     }
 
@@ -112,12 +139,17 @@
     #navOculta{
         display: block;
         position: sticky;
+        top: -1px;
+        text-align: center;
     }
 
     main{
         box-sizing: content-box;
-        width: 97%;    /*alinhar a borda de fora*/
+        width: 95%;    /*alinhar a borda de fora*/
         border: 2px solid red;
+    }
+    main img{
+        display: none;
     }
 
     main #manutenção h5{

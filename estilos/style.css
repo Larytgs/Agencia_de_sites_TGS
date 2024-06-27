@@ -77,10 +77,10 @@ main{
     border: 2px solid red;
 }
 main div{
-    padding: 10px;
+    padding: 10px 20px;
 
     box-sizing: border-box;
-    width: 100%;    /*alinhar a borda de dentro*/
+    width: 99.5%;    /*alinhar a borda de dentro*/
     border: 2px solid yellow;
 }
 main section h1{
@@ -93,8 +93,9 @@ main section h2{
 }
 main section p{
     padding: 5px 10px;
-    width: 100%;
     font-size: 1.1em;
+
+    border: 2px solid ;
 }
 main section img{
     min-width: 200px;
@@ -102,6 +103,10 @@ main section img{
     margin: 5px;
     border: 3px solid #4AD295;
     border-radius: 5px 55px;
+}
+main section div img{
+    min-width: 100px;
+    max-width: 500px;
 }
 
 main #sobre{
@@ -156,6 +161,9 @@ main #site{
     width: 100%;    /*alinhar a borda de dentro*/
     border: 2px solid rgb(255, 0, 212);
 }
+main #site #imgSite{
+    display: none;
+}
 
 main #manutenção{
     padding: 10px 5px 30px 10px;
@@ -183,9 +191,13 @@ main #manutenção h5{
     padding: 5px;
     border-radius: 20px;
 }
+main #manutenção #ulOculta{
+    display: none;
+}
 main #manutenção #ulimg{
     display: flex;
     align-items: center;
+    padding: 0%;
 }
 main #manutenção ul{
     list-style-position: inside; /*deixar a lista organizada*/
