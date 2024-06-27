@@ -10,6 +10,12 @@
 body{
     background-color: #0C243B;
     color: aliceblue;
+
+    scroll-behavior: smooth;
+
+    box-sizing: content-box;
+    width: 99.7%;    /*alinhar a borda de fora*/
+    border: 2px solid red;
 }
 
 header{
@@ -26,7 +32,6 @@ header img{
     text-align: center;
     width: 200px;
     border-radius: 15px;
-    position: sticky;
 }
 header h1{
     text-align: center;
@@ -35,12 +40,11 @@ header .sociais img{
     width: 50px; height: 50px;
     padding: 10px;
 }
-
 nav{
-    background-color: black;
+    background-color: #0a1c2c;
     padding: 10px;
-    position: sticky;
-    top: 55px;
+    margin: 10px;
+    border-radius: 20px;
 }
 nav a{
     text-decoration: none;
@@ -55,6 +59,10 @@ nav a:hover{
     align-items: center;
 }
 
+#navOculta{
+    display: none;
+}
+
 
 main{
     padding: 10px;
@@ -63,9 +71,17 @@ main{
     min-width: 300px;
     max-width: 1150px;
     margin: auto;
+
+    box-sizing: content-box;
+    width: 100%;    /*alinhar a borda de fora*/
+    border: 2px solid red;
 }
 main div{
     padding: 10px;
+
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de dentro*/
+    border: 2px solid yellow;
 }
 main section h1{
     padding: 5px;
@@ -77,10 +93,12 @@ main section h2{
 }
 main section p{
     padding: 5px 10px;
+    width: 100%;
     font-size: 1.1em;
 }
 main section img{
-    width: 500px;
+    min-width: 200px;
+    max-width: 500px;
     margin: 5px;
     border: 3px solid #4AD295;
     border-radius: 5px 55px;
@@ -89,7 +107,24 @@ main section img{
 main #sobre{
     padding: 10px 5px 30px 10px;
     text-align: center;
-    text-decoration: underline;
+
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de dentro*/
+    border: 2px solid rgb(255, 0, 212);
+}
+main button{
+    background-color: #4AD295;
+    padding: 10px;
+    border-radius: 20px;
+}
+main button:hover{
+    box-shadow: 2px 2px 3px #0a1c2c;
+    cursor: pointer;
+}
+main a{
+    text-decoration: none;
+    color: #0a1c2c;
+    font: 800 1.3em times;
 }
 
 main #responsivo{
@@ -99,10 +134,15 @@ main #responsivo{
 
     display: flex;
     align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de dentro*/
+    border: 2px solid rgb(255, 0, 212);
 }
 main #responsivo h3{
     color: #98cfff;
     padding: 5px 10px;
+    width: 100%;
     font-size: 1.2em;
 }
 
@@ -111,6 +151,10 @@ main #site{
 
     display: flex;
     align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de dentro*/
+    border: 2px solid rgb(255, 0, 212);
 }
 
 main #manutenção{
@@ -120,6 +164,10 @@ main #manutenção{
 
     display: flex;
     align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de dentro*/
+    border: 2px solid rgb(255, 0, 212);
 }
 main #manutenção h3{
     color: #98cfff;
@@ -130,11 +178,10 @@ main #manutenção h5{
     background-color: #4AD295;
     color: #0C243B;
     font-size: 2em;
-    width: 265px;
-    margin-top: 10px;
+    text-align: center;
+    margin: 10px 30px;
     padding: 5px;
     border-radius: 20px;
-    margin-left: 30px;
 }
 main #manutenção #ulimg{
     display: flex;
@@ -150,7 +197,6 @@ main #manutenção ul{
     padding: 10px;
 }
 main #manutenção #ulimg img{
-    width: 100px; 
     margin-left: 50px;
     border: none;
 }
@@ -160,18 +206,35 @@ footer{
     background-color: #1A3046;
     color: white;
 
+    box-sizing: content-box;
+    width: 99.7%;    /*alinhar a borda de fora*/
+    border: 2px solid red;
+}
+footer #contatos{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    box-sizing: border-box;
+    border: 2px solid yellow;
 }
 footer h1{
     padding: 10px;
+    font-size: 1.3em;
+
+    box-sizing: border-box;
+    border: 2px solid yellowgreen;
 }
 footer .local{
     padding: 10px;
+
+    box-sizing: border-box;
+    border: 2px solid yellowgreen;
 }
 footer .local h2{
     padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
 }
 footer .local div img{
     width: 30px; height: 30px;
@@ -183,14 +246,33 @@ footer .local div a{
 
     color: white;
     text-decoration: none;
-    padding: 5px;
 }
 footer .local div a:hover{
     text-decoration: underline;
 }
 
+footer .fazemos{
+    box-sizing: border-box;
+    border: 2px solid yellowgreen;
+}
+footer .fazemos h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+footer .fazemos ul{
+    list-style-position: inside; /*deixar a lista organizada*/
+    margin: 5px;
+}
+
+footer .sociais{
+    text-align: center;
+    box-sizing: border-box;
+    width: 20%;    /*alinhar a borda de dentro*/
+    border: 2px solid yellowgreen;
+}
 footer .sociais h2{
     padding: 10px;
+    font-size: 1.2em;
 }
 footer .sociais img{
     width: 50px; height: 50px;

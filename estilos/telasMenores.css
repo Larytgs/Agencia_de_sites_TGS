@@ -1,0 +1,140 @@
+@charset "UTF8";
+
+@media all and (min-width: 900px) and (max-width: 1115px) { /*para telas grandes*/
+
+    body{
+        box-sizing: content-box;
+        width: 99.5%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    main{
+        box-sizing: content-box;
+        width: 97.5%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    footer .sociais img{
+        width: 45px; height: 45px;
+        padding: 5px;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 899px) { /*para notebooks*/
+
+    body{
+        box-sizing: content-box;
+        width: 99.5%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    main{
+        box-sizing: content-box;
+        width: 97%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    main #manutenção h5{
+        font-size: 1.6em;
+    }
+    main #manutenção #ulimg img{
+        display: none;
+    }
+
+    footer .local div img{
+        width: 25px; height: 25px;
+        padding: 5px;
+    }
+    footer .sociais img{
+        width: 40px; height: 40px;
+        padding: 5px;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) { /*para tablets*/
+
+    body{
+        box-sizing: content-box;
+        width: 99.5%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    header{
+        position: relative;
+    }
+    nav{
+        display: none;
+    }
+
+    #navOculta{
+        display: block;
+        position: sticky;
+        text-align: center;
+    }
+
+    main{
+        box-sizing: content-box;
+        width: 97%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    main #manutenção h5{
+        font-size: 1.5em;
+    }
+    main #manutenção #ulimg img{
+        display: none;
+    }
+
+    footer .sociais h2{
+        display: none;
+    }
+    footer .sociais img{
+        width: 40px; height: 40px;
+        padding: 5px;
+    }
+}
+
+@media all and (min-width: 320px ) and (max-width: 480px) { /*para celulares*/
+
+    body{
+        box-sizing: content-box;
+        width: 99.5%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    header{
+        position: relative;
+    }
+    nav{
+        display: none;
+    }
+
+    #navOculta{
+        display: block;
+        position: sticky;
+    }
+
+    main{
+        box-sizing: content-box;
+        width: 97%;    /*alinhar a borda de fora*/
+        border: 2px solid red;
+    }
+
+    main #manutenção h5{
+        font-size: 1.2em;
+    }
+    main #manutenção #ulimg img{
+        display: none;
+    }
+
+    footer h1{
+        display: none;
+    }
+    footer .sociais h2{
+        display: none;
+    }
+    footer .sociais img{
+        width: 30px; height: 30px;
+        padding: 5px;
+    }
+}

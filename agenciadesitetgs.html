@@ -5,31 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia de Sites TGS</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/telasMenores.css">
 </head>
 <body>
     <header>
         <div>
-            <img src="imagens/Minhalogo.png">
+            <img src="imagens/logo.png">
         </div>
         <div>
             <h1>Agência de Sites TGS</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#">Serviços</a>
+                <a href="#contatos">Contato</a>
+            </nav>
         </div>
         <div class="sociais">
             <a href="#"><img src="imagens/whatsapp.png"></a>
         </div>
     </header>
-    <nav>
+    <nav id="navOculta">
         <a href="#">Home</a>
         <a href="#sobre">Sobre</a>
         <a href="#">Serviços</a>
         <a href="#contatos">Contato</a>
     </nav>
+    
     <main>
         <section>
             <article id="sobre">
                 <div>
                     <h1>BEM-VINDO A AGÊNCIA TGS! <br> UMA AGÊNCIA CRIATIVA, MOVIDA PELA INOVAÇÃO.</h1>
+                    <p>Somos uma pequena empresa, com grande criatividade em criar sites de acordo com a sua empresa. </p>
+                    <p>Nosso objetivo é único! Gerar os resultados que o seu negócio precisa para chegar ao topo.</p>
                 </div>
+                <button type="button"><a href="https://api.whatsapp.com/send/?phone=5541991368055&text&type=phone_number&app_absent=0" target="_blank">Orçamento pelo whatsapp</a></button>
             </article>
 
             <article id="responsivo">
@@ -83,26 +94,30 @@
     <aside>
 
     </aside>
-    <footer id="contatos">
-        <div>
-            <h1>Agência de Sites TGS</h1>
-        </div>
-        <div class="local">
-            <h2>Onde Estamos?</h2>
-            <div><a href="#"><img src="imagens/localizaão.png"><p>Bairro Boa Vista - Curitiba - PR</p></a></div>
-            <div><a href="#"><img src="imagens/email.png"><p>email@hotmail.com</p></a></div>
-            <div><a href="#"><img src="imagens/whatsapp.png"><p>41 991368055</p></a></div>
-        </div>
-        <div>
-            <h2>O que fazemos?</h2>
-            <p>Crianção de sites</p>
-            <p>Manutenção Proativa</p>
-        </div>
-        <div class="sociais">
-            <h2>Siga-nos nas Redes Soiais</h2>
-            <a href="#"><img src="imagens/instagram.png"></a>
-            <a href="#"><img src="imagens/whatsapp.png"></a>
-            <a href="#"><img src="imagens/github.png"></a>
+    <footer>
+        <div id="contatos">
+            <div>
+                <h1>Agência de Sites TGS</h1>
+            </div>
+            <div class="local">
+                <h2>Onde Estamos?</h2>
+                <div><a href="#"><img src="imagens/localizaão.png"><p>Bairro Boa Vista - Curitiba - PR</p></a></div>
+                <div><a href="#"><img src="imagens/email.png"><p>email@hotmail.com</p></a></div>
+                <div><a href="#"><img src="imagens/whatsapp.png"><p>41 991368055</p></a></div>
+            </div>
+            <div class="fazemos">
+                <h2>O que fazemos?</h2>
+                <ul>
+                    <li>Crianção de sites
+                    <li>Manutenção Proativa
+                </ul>
+            </div>
+            <div class="sociais">
+                <h2>Siga-nos nas Redes Soiais</h2>
+                <a href="#"><img src="imagens/instagram.png"></a>
+                <a href="https://api.whatsapp.com/send/?phone=5541991368055&text&type=phone_number&app_absent=0" target="_blank"><img src="imagens/whatsapp.png"></a>
+                <a href="https://github.com/Larytgs" target="_blank"><img src="imagens/github.png"></a>
+            </div>
         </div>
     </footer>
 </body>
