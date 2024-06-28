@@ -183,6 +183,10 @@ main #site #imgSite{
     display: none;
 }
 
+main #tipoSite div div{
+    display: inline-flex;
+}
+
 main #manutenção{
     padding: 10px 5px 30px 10px;
     background-color: #0C243B;
