@@ -2,18 +2,14 @@
 
 @media all and (min-width: 900px) and (max-width: 1115px) { /*para telas grandes*/
 
-    body{
-        box-sizing: content-box;
-        width: 99.5%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
-    }
-
     main{
         box-sizing: content-box;
-        width: 97.5%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
+        width: 97.6%;    /*alinhar a borda de fora*/
     }
 
+    footer{
+        width: 99.8%;    /*alinhar a borda de fora*/
+    }
     footer .sociais img{
         width: 45px; height: 45px;
         padding: 5px;
@@ -22,20 +18,21 @@
 
 @media all and (min-width: 769px) and (max-width: 899px) { /*para notebooks*/
 
+
     body{
         box-sizing: content-box;
         width: 99.5%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
     }
-
     main{
         box-sizing: content-box;
         width: 97%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
+    }
+    main section h1{
+        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
     }
 
-    main #manutenção h5{
-        font-size: 1.6em;
+    main #manutenção h5{ /*R$ 50,00 - Mensal*/
+        font-size: 1.4em;
     }
     main #manutenção #ulimg img{
         display: none;
@@ -53,19 +50,15 @@
 
 @media all and (min-width: 481px) and (max-width: 768px) { /*para tablets*/
 
-    body{
-        box-sizing: content-box;
-        width: 99%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
-    }
-
     header{
         position: relative;
+    }
+    header h1{
+        font-size: 1.5em;
     }
     nav{
         display: none;
     }
-
     #navOculta{
         display: block;
         position: sticky;
@@ -76,7 +69,16 @@
     main{
         box-sizing: content-box;
         width: 95.6%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
+    }
+    main section h1{
+        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+    }
+    main section p{
+        padding: 5px 10px;
+        font: 1em var(--paragrafos);
+    }
+    main section img{
+        margin: 0%; /*arrumar nessa parte*/
     }
 
     main #responsivo{
@@ -92,7 +94,7 @@
         display: none;
     }
     main #site #imgSite{
-        display: block;
+        display: inline-block;
         text-align: center;
     }
 
@@ -101,17 +103,32 @@
         text-align: center;
     }
     main #manutenção h5{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     main #manutenção #ulimg{
-        text-align: left;       
+        display: inline-block;
+        text-align: center;   
     }
     main #manutenção #ulimg img{
         display: none;
     }
 
+    main #nsei{
+        display: inline-block;
+        text-align: center;
+    }
+    main #nsei img{
+        display: none;
+    }
+    main #nsei #imgNsei{
+        display: inline-block;
+        text-align: center;
+    }
 
 
+    footer h1{
+        font-size: 1.5em;
+    }
     footer .sociais h2{
         display: none;
     }
@@ -126,11 +143,105 @@
     body{
         box-sizing: content-box;
         width: 98%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
     }
 
     header{
         position: relative;
+    }
+    header img{
+        width: 100px;
+    }
+    header h1{
+        display: none;
+    }
+    header .sociais img{
+        width: 40px; height: 40px;
+    }
+    nav{
+        display: none;
+    }
+    #navOculta{
+        display: block;
+        position: sticky;
+        top: -1px;
+        text-align: center;
+        font-family: var(--paragrafos);
+    }
+
+    main{
+        box-sizing: content-box;
+        width: 95%;    /*alinhar a borda de fora*/
+    }
+    main section h1{
+        padding: 5px;
+        font-size: 1.2em;
+        text-align: center;
+        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+    }
+    main section h2{
+        padding: 5px;
+        font-size: 1.1em;
+    }
+    main section h3{
+        padding: 5px;
+        font-size: 1.1em;
+    }
+    main section p{
+        padding: 5px 10px;
+        font: 0.9em var(--paragrafos);
+    }
+    main section ul{
+        font: 1em var(--paragrafos);
+    }
+    main img{
+        display: none;
+    }
+
+    main #manutenção h5{
+        font-size: 1.1em;
+    }
+    main #manutenção #ulimg img{
+        display: none;
+    }
+
+    footer h1{
+        display: none;
+    }
+    footer .contatos, .fazemos h2{
+        font-size: 0.9em;
+    }
+    footer .local div a{
+        font-size: 0.8em;
+    }
+    footer .sociais h2{
+        display: none;
+    }
+    footer .sociais img{
+        width: 30px; height: 30px;
+        padding: 5px;
+        display: flex;
+    }
+
+}
+
+@media all and (min-width: 200px ) and (max-width: 319px) { /*para celulares menores*/
+    
+    body{
+        box-sizing: content-box;
+        width: 98%;    /*alinhar a borda de fora*/
+    }
+
+    header{
+        position: relative;
+    }
+    header img{
+        width: 100px;
+    }
+    header h1{
+        display: none;
+    }
+    header .sociais img{
+        width: 30px; height: 30px;
     }
     nav{
         display: none;
@@ -141,25 +252,76 @@
         position: sticky;
         top: -1px;
         text-align: center;
+        pad: 0%;
+        font-family: var(--paragrafos);
     }
 
     main{
         box-sizing: content-box;
-        width: 95%;    /*alinhar a borda de fora*/
-        border: 2px solid red;
+        padding: 0%;
+        width: 0%;
+    }
+    main div{
+        margin: 0%;
+        padding: 0%;
+    }
+    main section h1{
+        padding: 0px;
+        font-size: 1.1em;
+        text-align: center;
+        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+    }
+    main section h2{
+        padding: 0px;
+        font-size: 1em;
+    }
+    main section h3{
+        padding: 0px;
+        font-size: 1em;
+    }
+    main section p{
+        padding: 5px 10px;
+        font: 0.9em var(--paragrafos);
+    
+        border: 2px solid ;
+    }
+    main section ul{
+        font: 0.9em var(--paragrafos);
     }
     main img{
         display: none;
     }
 
+    main #sobre{
+        padding: 0%;
+    }
+    main #responsivo{
+        padding: 0%;
+    }
+    main #site{
+        padding: 0%;
+    }
+    main #manutenção{
+        padding: 0%;
+    }
+
     main #manutenção h5{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     main #manutenção #ulimg img{
         display: none;
     }
+    main button{
+        background-color: #4AD295;
+        padding: 5px;
+        border-radius: 20px;
+        font-size: 0.9em;
+    }
 
     footer h1{
+        display: none;
+    }
+    footer .fazemos{
         display: none;
     }
     footer .sociais h2{

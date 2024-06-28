@@ -1,10 +1,21 @@
 @charset "UTF8";
 
+@font-face {
+    font-family: 'tt';
+    src: url(../fontes/Billie\ Eilish.otf) format(opetype);
+    src: url(../fontes/billie\ eilish.ttf) format(truetype);
+}
+
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --titulos: 'tt';
+    --paragrafos: Arial, Verdana, sans-serif;
 }
 
 body{
@@ -15,7 +26,6 @@ body{
 
     box-sizing: content-box;
     width: 99.7%;    /*alinhar a borda de fora*/
-    border: 2px solid red;
 }
 
 header{
@@ -24,17 +34,21 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    box-sizing: border-box;
+    width: 100.3%;    /*alinhar a borda de fora*/
 
     position: sticky;
     top: -1px;
 }
 header img{
     text-align: center;
-    width: 200px;
+    width: 150px;
     border-radius: 15px;
 }
 header h1{
     text-align: center;
+    font: 2em var(--titulos);
 }
 header .sociais img{
     width: 50px; height: 50px;
@@ -48,6 +62,7 @@ nav{
 }
 nav a{
     text-decoration: none;
+    font-family: var(--paragrafos);
     color: #f0f8ffe0;
     
     padding: 5px 10px;
@@ -81,21 +96,34 @@ main div{
 
     box-sizing: border-box;
     width: 99.5%;    /*alinhar a borda de dentro*/
-    border: 2px solid yellow;
 }
 main section h1{
     padding: 5px;
-    font-size: 1.4em;
+    font: 800 1.5em var(--titulos);
+    text-transform: uppercase; /*vai deixar td em letra maiúscula grande*/
 }
 main section h2{
     padding: 5px;
     font-size: 1.4em;
 }
+main section h3{
+    color: #7ec1fc;
+    padding: 5px 10px;
+    font: 1.4em var(--titulos);
+}
 main section p{
     padding: 5px 10px;
-    font-size: 1.1em;
+    font: 1.1em var(--paragrafos);
+}
+main section ul{
+    font: 1em var(--paragrafos);
 
-    border: 2px solid ;
+    list-style-position: inside; /*deixar a lista organizada*/
+    margin-top: 10px;
+    background-color: #4ad295;
+    color: #0C243B;
+    border-radius: 10px;
+    padding: 10px;
 }
 main section img{
     min-width: 200px;
@@ -104,10 +132,6 @@ main section img{
     border: 3px solid #4AD295;
     border-radius: 5px 55px;
 }
-main section div img{
-    min-width: 100px;
-    max-width: 500px;
-}
 
 main #sobre{
     padding: 10px 5px 30px 10px;
@@ -115,7 +139,9 @@ main #sobre{
 
     box-sizing: border-box;
     width: 100%;    /*alinhar a borda de dentro*/
-    border: 2px solid rgb(255, 0, 212);
+}
+main #sobre h1{
+    text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
 }
 main button{
     background-color: #4AD295;
@@ -142,13 +168,6 @@ main #responsivo{
 
     box-sizing: border-box;
     width: 100%;    /*alinhar a borda de dentro*/
-    border: 2px solid rgb(255, 0, 212);
-}
-main #responsivo h3{
-    color: #98cfff;
-    padding: 5px 10px;
-    width: 100%;
-    font-size: 1.2em;
 }
 
 main #site{
@@ -159,7 +178,6 @@ main #site{
 
     box-sizing: border-box;
     width: 100%;    /*alinhar a borda de dentro*/
-    border: 2px solid rgb(255, 0, 212);
 }
 main #site #imgSite{
     display: none;
@@ -175,20 +193,12 @@ main #manutenção{
 
     box-sizing: border-box;
     width: 100%;    /*alinhar a borda de dentro*/
-    border: 2px solid rgb(255, 0, 212);
 }
-main #manutenção h3{
-    color: #98cfff;
-    padding: 5px 10px;
-    font-size: 1.2em;
-}
-main #manutenção h5{
-    background-color: #4AD295;
-    color: #0C243B;
-    font-size: 2em;
+main #manutenção h5{  /*R$ 50,00 - Mensal*/
+    background-color: #4AD295; color: #0C243B;
+    font: 800 1.5em var(--titulos);
     text-align: center;
-    margin: 10px 30px;
-    padding: 5px;
+    margin: 10px 30px; padding: 5px;
     border-radius: 20px;
 }
 main #manutenção #ulOculta{
@@ -199,28 +209,30 @@ main #manutenção #ulimg{
     align-items: center;
     padding: 0%;
 }
-main #manutenção ul{
-    list-style-position: inside; /*deixar a lista organizada*/
-    margin-top: 10px;
-    background-color: #4ad295;
-    color: #0C243B;
-    font-weight: 800;
-    border-radius: 10px;
-    padding: 10px;
-}
 main #manutenção #ulimg img{
     margin-left: 50px;
     border: none;
 }
 
+main #nsei{
+    padding: 10px 5px 30px 10px;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;    /*alinhar a borda de dentro*/
+}
+main #nsei #imgNsei{
+    display: none;
+}
 
 footer{
     background-color: #1A3046;
     color: white;
 
     box-sizing: content-box;
-    width: 99.7%;    /*alinhar a borda de fora*/
-    border: 2px solid red;
+    width: 100.3%;    /*alinhar a borda de fora*/
 }
 footer #contatos{
     display: flex;
@@ -228,24 +240,20 @@ footer #contatos{
     align-items: center;
 
     box-sizing: border-box;
-    border: 2px solid yellow;
 }
 footer h1{
-    padding: 10px;
-    font-size: 1.3em;
+    padding: 10px 20px;
+    font: 1.8em var(--titulos);
+    text-decoration: underline;
 
     box-sizing: border-box;
-    border: 2px solid yellowgreen;
 }
 footer .local{
     padding: 10px;
-
-    box-sizing: border-box;
-    border: 2px solid yellowgreen;
 }
 footer .local h2{
     padding: 10px;
-    font-size: 1.2em;
+    font: 1.3em var(--titulos);
     text-align: center;
 }
 footer .local div img{
@@ -255,6 +263,7 @@ footer .local div img{
 footer .local div a{
     display: flex;
     align-items: center;
+    font: 1em var(--paragrafos);
 
     color: white;
     text-decoration: none;
@@ -265,28 +274,28 @@ footer .local div a:hover{
 
 footer .fazemos{
     box-sizing: border-box;
-    border: 2px solid yellowgreen;
 }
 footer .fazemos h2{
-    margin-bottom: 5px;
+    padding:10px;
+    font: 1.3em var(--titulos);
     text-align: center;
 }
 footer .fazemos ul{
     list-style-position: inside; /*deixar a lista organizada*/
     margin: 5px;
+    font: 1em var(--paragrafos);
 }
 
 footer .sociais{
     text-align: center;
-    box-sizing: border-box;
-    width: 20%;    /*alinhar a borda de dentro*/
-    border: 2px solid yellowgreen;
+    padding: 10px 20px;
 }
 footer .sociais h2{
     padding: 10px;
-    font-size: 1.2em;
+    font: 1.3em var(--titulos);
+    text-align: center;
 }
 footer .sociais img{
     width: 50px; height: 50px;
-    padding: 5px;
+    padding: 2px;
 }
