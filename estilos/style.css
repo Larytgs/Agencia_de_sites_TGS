@@ -89,7 +89,6 @@ main{
 
     box-sizing: content-box;
     width: 100%;    /*alinhar a borda de fora*/
-    border: 2px solid red;
 }
 main div{
     padding: 10px 20px;
@@ -185,6 +184,10 @@ main #site #imgSite{
 
 main #tipoSite div div{
     display: inline-flex;
+}
+main #tipoSite img{
+    border-radius: 20px;
+    width: 700px;
 }
 
 main #manutenção{
