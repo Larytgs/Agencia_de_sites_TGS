@@ -163,7 +163,7 @@
     #navOculta{
         display: block;
         position: sticky;
-        top: -1px;
+        top: 0px;
         text-align: center;
         font-family: var(--paragrafos);
     }
