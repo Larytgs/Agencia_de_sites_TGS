@@ -188,7 +188,7 @@
     }
     main section p{
         padding: 5px 10px;
-        font: 0.9em var(--paragrafos);
+        font: 1em var(--paragrafos);
     }
     main section ul{
         font: 1em var(--paragrafos);
