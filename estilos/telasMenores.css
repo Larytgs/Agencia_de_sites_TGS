@@ -31,6 +31,10 @@
         text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
     }
 
+    main #siteEstat div img{
+        display: none;
+    }
+
     main #manutenção h5{ /*R$ 50,00 - Mensal*/
         font-size: 1.4em;
     }
@@ -96,6 +100,9 @@
     main #site #imgSite{
         display: inline-block;
         text-align: center;
+    }
+    main #siteEstat div img{
+        display: none;
     }
 
     main #manutenção{
@@ -175,8 +182,8 @@
     main section h1{
         padding: 5px;
         font-size: 1.3em;
-        text-align: center;
         text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+        text-align: center;
     }
     main section h2{
         padding: 5px;
@@ -194,6 +201,10 @@
         font: 1em var(--paragrafos);
     }
     main img{
+        display: none;
+    }
+
+    main #siteEstat div img{
         display: none;
     }
 

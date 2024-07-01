@@ -99,6 +99,7 @@ main div{
 main section h1{
     padding: 5px;
     font: 800 1.5em var(--titulos);
+    letter-spacing: .1rem; /*espaçamento entre letras*/
     text-transform: uppercase; /*vai deixar td em letra maiúscula grande*/
 }
 main section h2{
@@ -181,14 +182,22 @@ main #site{
 main #site #imgSite{
     display: none;
 }
-
-main #tipoSite div div{
+main #siteEstat div{
+    display: inline-flex;
+}
+main #siteEstat div img{
+    border-radius: 40px;
+    
+    min-width: 200px;
+    max-width: 500px;
+}
+/*main #tipoSite div div{
     display: inline-flex;
 }
 main #tipoSite img{
     border-radius: 20px;
     width: 700px;
-}
+}*/
 
 main #manutenção{
     padding: 10px 5px 30px 10px;
