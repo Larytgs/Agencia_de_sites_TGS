@@ -182,14 +182,30 @@ main #site{
 main #site #imgSite{
     display: none;
 }
-main #siteEstat div{
+main #siteEstat{
     display: inline-flex;
+}
+main #siteEstat div{
+    margin: 0%; padding: 0%;
 }
 main #siteEstat div img{
     border-radius: 40px;
-    
-    min-width: 200px;
-    max-width: 500px;
+    width: 350px;
+    margin-bottom: 10px; padding: 0%;
+}
+main #siteEstat div a{
+    color: #4AD295;
+}
+
+main #imgLink{
+    text-align: center; 
+    padding: 0%;
+}
+main #imgLink a{
+    text-decoration: underline;
+}
+main #linkOculto{
+    display: none;
 }
 /*main #tipoSite div div{
     display: inline-flex;

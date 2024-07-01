@@ -30,8 +30,13 @@
     main section h1{
         text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
     }
-
-    main #siteEstat div img{
+ 
+    main #linkOculto{
+        display: block;
+        padding: 5px 10px;
+        text-decoration: underline;
+    }
+    main #imgLink{
         display: none;
     }
 
@@ -101,7 +106,12 @@
         display: inline-block;
         text-align: center;
     }
-    main #siteEstat div img{
+    main #linkOculto{
+        display: block;
+        padding: 5px 10px;
+        text-decoration: underline;
+    }
+    main #imgLink{
         display: none;
     }
 
@@ -204,8 +214,16 @@
         display: none;
     }
 
-    main #siteEstat div img{
+    main #linkOculto{
+        display: block;
+        padding: 5px 10px;
+        text-decoration: underline;
+    }
+    main #imgLink{
         display: none;
+    }
+    main #linkOculto{
+        display: block;
     }
 
     main #manutenção h5{
@@ -311,6 +329,9 @@
     }
     main #site{
         padding: 0%;
+    }
+    main #linkOculto{
+        display: block;
     }
     main #manutenção{
         padding: 0%;
