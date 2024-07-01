@@ -30,15 +30,6 @@
     main section h1{
         text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
     }
- 
-    main #linkOculto{
-        display: block;
-        padding: 5px 10px;
-        text-decoration: underline;
-    }
-    main #imgLink{
-        display: none;
-    }
 
     main #manutenção h5{ /*R$ 50,00 - Mensal*/
         font-size: 1.4em;

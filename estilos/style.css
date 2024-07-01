@@ -194,6 +194,7 @@ main #siteEstat{
 }
 main #siteEstat div{
     margin: 0%; padding: 0%;
+    align-items: center;
 }
 main #siteEstat div img{
     border-radius: 40px;
