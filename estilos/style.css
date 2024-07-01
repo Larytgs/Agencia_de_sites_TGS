@@ -109,11 +109,12 @@ main section h2{
 main section h3{
     color: #7ec1fc;
     padding: 5px 10px;
-    font: 1.4em var(--titulos);
+    font: 1.5em var(--titulos);
+    letter-spacing: .1rem; /*espaçamento entre letras*/
 }
 main section p{
     padding: 5px 10px;
-    font: 1.1em var(--paragrafos);
+    font: 1.2em var(--paragrafos);
 }
 main section ul{
     font: 1em var(--paragrafos);
@@ -182,6 +183,12 @@ main #site{
 main #site #imgSite{
     display: none;
 }
+
+main #siteEstatico{
+    padding: 10px 5px 20px 10px;
+    background-color: #0C243B;
+    border-radius: 5px 55px;
+}
 main #siteEstat{
     display: inline-flex;
 }
@@ -217,8 +224,6 @@ main #tipoSite img{
 
 main #manutenção{
     padding: 10px 5px 30px 10px;
-    background-color: #0C243B;
-    border-radius: 5px 55px;
 
     display: flex;
     align-items: center;
@@ -248,6 +253,8 @@ main #manutenção #ulimg img{
 
 main #nsei{
     padding: 10px 5px 30px 10px;
+    background-color: #0C243B;
+    border-radius: 5px 55px;
 
     display: flex;
     align-items: center;

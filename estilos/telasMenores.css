@@ -71,7 +71,7 @@
     #navOculta{
         display: block;
         position: sticky;
-        top: -1px;
+        top: 1px;
         text-align: center;
     }
 
@@ -180,7 +180,7 @@
     #navOculta{
         display: block;
         position: sticky;
-        top: 0px;
+        top: 1px;
         text-align: center;
         font-family: var(--paragrafos);
     }
@@ -279,7 +279,7 @@
     #navOculta{
         display: block;
         position: sticky;
-        top: -1px;
+        top: 1px;
         text-align: center;
         pad: 0%;
         font-family: var(--paragrafos);
