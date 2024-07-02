@@ -64,6 +64,8 @@
         position: sticky;
         top: 1px;
         text-align: center;
+
+        z-index: 1; /*Assim, ele ficará na frente de tds*/
     }
 
     main{
@@ -78,7 +80,7 @@
         font: 1em var(--paragrafos);
     }
     main section img{
-        margin: 0%; /*arrumar nessa parte*/
+        width: 400px;
     }
 
     main #responsivo{
@@ -148,10 +150,7 @@
 
 @media all and (min-width: 320px ) and (max-width: 480px) { /*para celulares*/
 
-    body{
-        box-sizing: content-box;
-        width: 98%;    /*alinhar a borda de fora*/
-    }
+    
 
     header{
         position: relative;
@@ -174,6 +173,8 @@
         top: 1px;
         text-align: center;
         font-family: var(--paragrafos);
+
+        z-index: 1; /*Assim, ele ficará na frente de tds*/
     }
 
     main{
@@ -224,6 +225,9 @@
         display: none;
     }
 
+    footer{
+        padding: 10% 0%;
+    }
     footer h1{
         display: none;
     }
