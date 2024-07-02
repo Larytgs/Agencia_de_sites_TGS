@@ -150,13 +150,29 @@ main button{
     border-radius: 20px;
 }
 main button:hover{
-    box-shadow: 2px 2px 3px #0a1c2c;
+    box-shadow: 2px 2px 1px 1px #0a1c2c;
+    animation: tremer 0.5s;
+    animation-iteration-count: infinite;
     cursor: pointer;
+}
+@keyframes tremer{
+    0%{transform: translate(1px,1px) rotate(0deg);}
+    10%{transform: translate(-1px,-1px) rotate(-1deg);}
+    20%{transform: translate(-1px,0px) rotate(0deg);}
+    30%{transform: translate(0px,1px) rotate(0deg);}
+    40%{transform: translate(1px,1px) rotate(1deg);}
+    50%{transform: translate(-1px,-1px) rotate(-1deg);}
+    60%{transform: translate(-1px,1px) rotate(0deg);}
+    70%{transform: translate(0px,1px) rotate(0deg);}
+    80%{transform: translate(-1px,-1px) rotate(0deg);}
+    90%{transform: translate(1px,0px) rotate(0deg);}
+    100%{transform: translate(1px,0px) rotate(0deg);}
 }
 main a{
     text-decoration: none;
     color: #0a1c2c;
-    font: 800 1.3em times;
+    font: 800 1.3em var(--titulos);
+    letter-spacing: .1rem; /*espaçamento entre letras*/
 }
 
 main #responsivo{
