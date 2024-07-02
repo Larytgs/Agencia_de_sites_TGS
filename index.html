@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header class="header sticky " id="myHeader">
         <div>
             <img src="imagens/logo.png">
         </div>
@@ -166,5 +166,23 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Quando user fizer scroll executar a myFuntion
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("myHeader");
+
+        var sticky = header.offsetTop;
+
+        // Adicionar a classe sticky ao header quando chega à posição de scroll e remover quando sai dessa posição.
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+        }
+    </script>
 </body>
 </html>
