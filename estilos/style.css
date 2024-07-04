@@ -25,7 +25,7 @@ body{
     scroll-behavior: smooth;
 
     box-sizing: content-box;
-    width: 99.7%;    /*alinhar a borda de fora*/
+    width: 100%;    /*alinhar a borda de fora*/
 }
 
 header{
@@ -82,7 +82,7 @@ nav a:hover{
 
 
 main{
-    padding: 10px;
+    padding: 20px 10px;
     background-color: #1e4364;
 
     min-width: 300px;

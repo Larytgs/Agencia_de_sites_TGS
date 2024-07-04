@@ -23,10 +23,7 @@
 @media all and (min-width: 769px) and (max-width: 899px) { /*para notebooks*/
 
 
-    body{
-        box-sizing: content-box;
-        width: 99.5%;    /*alinhar a borda de fora*/
-    }
+    
     main{
         box-sizing: content-box;
         width: 97%;    /*alinhar a borda de fora*/
@@ -159,8 +156,6 @@
 
 @media all and (min-width: 320px ) and (max-width: 480px) { /*para celulares*/
 
-    
-
     header{
         position: relative;
     }
@@ -260,10 +255,7 @@
 
 @media all and (min-width: 200px ) and (max-width: 319px) { /*para celulares menores*/
     
-    body{
-        box-sizing: content-box;
-        width: 98%;    /*alinhar a borda de fora*/
-    }
+    
 
     header{
         position: relative;
@@ -335,15 +327,26 @@
     main #site{
         padding: 0%;
     }
+
+    main #linkOculto{
+        display: block;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: underline;
+    }
+    main #imgLink{
+        display: none;
+    }
     main #linkOculto{
         display: block;
     }
+
     main #manutenção{
         padding: 0%;
     }
-
     main #manutenção h5{
         font-size: 1em;
+        margin-top: 10px;
     }
     main #manutenção #ulimg img{
         display: none;
