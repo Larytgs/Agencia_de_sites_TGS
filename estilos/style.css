@@ -21,6 +21,9 @@
 html{
     scroll-behavior: smooth; /*rolagem suave*/
 }
+:target {
+    scroll-margin-top: 5em;
+}
 body{
     background-color: #0C243B;
     color: aliceblue;

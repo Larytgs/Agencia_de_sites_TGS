@@ -155,6 +155,15 @@
 }
 
 @media all and (min-width: 320px ) and (max-width: 480px) { /*para celulares*/
+    html{
+        scroll-behavior: smooth; /*rolagem suave*/
+    }
+    :target {
+        scroll-margin-top: 0em;
+    }
+    main #responsivo:target{
+        scroll-margin-top: 5em;
+    }
 
     header{
         position: relative;
