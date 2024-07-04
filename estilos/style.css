@@ -24,6 +24,10 @@ html{
 :target {
     scroll-margin-top: 5em;
 }
+main #responsivo:target{
+    scroll-margin-top: 10em;
+}
+
 body{
     background-color: #0C243B;
     color: aliceblue;
