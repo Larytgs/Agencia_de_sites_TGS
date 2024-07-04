@@ -18,7 +18,7 @@
             <nav>
                 <a href="#">Home</a>
                 <a href="#sobre">Sobre</a>
-                <a href="#">Serviços</a>
+                <a href="#manutenção">Serviços</a>
                 <a href="#contatos">Contato</a>
             </nav>
         </div>
@@ -29,7 +29,7 @@
     <nav id="navOculta">
         <a href="#">Home</a>
         <a href="#sobre">Sobre</a>
-        <a href="#">Serviços</a>
+        <a href="#manutenção">Serviços</a>
         <a href="#contatos">Contato</a>
     </nav>
     
@@ -128,7 +128,7 @@
                 </div>
                     <img src="imagens/site.jpg">
             </article>
-            
+
             <article id="contRev" class="int_hidden">
                 <img src="imagens/Conteudo_relevante.jpg">
                 <div>
@@ -149,7 +149,10 @@
         </section>
     </main>
     <aside>
-
+        <div class="scroll-top">
+            <a id="botao-top" onclick="scrollToTop()"><img src="imagens/setapcima.png" alt="">
+            </a>
+        </div>
     </aside>
     <footer>
         <div id="contatos">
@@ -178,23 +181,15 @@
     </footer>
 
     <script>
-        /*// Quando user fizer scroll executar a myFuntion
-        window.onscroll = function() {myFunction()};
-
-        var header = document.getElementById("myHeader");
-
-        var sticky = header.offsetTop;
-
-        // Adicionar a classe sticky ao header quando chega à posição de scroll e remover quando sai dessa posição.
-        function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
+        //botao para subir a pagina
+        const scrollToTop = () => {
+            window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+            })
         }
-        }*/
 
-
+        // animar um elemento quando usar o scroll da página
         const observer = new IntersectionObserver( entries => {
             console.log(entries)
             entries[0].target.classList.add('.init_hidden-off')

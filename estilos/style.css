@@ -18,6 +18,9 @@
     --paragrafos: Arial, Verdana, sans-serif;
 }
 
+html{
+    scroll-behavior: smooth; /*rolagem suave*/
+}
 body{
     background-color: #0C243B;
     color: aliceblue;
@@ -25,7 +28,7 @@ body{
     scroll-behavior: smooth;
 
     box-sizing: content-box;
-    width: 100%;    /*alinhar a borda de fora*/
+    width: 99.7%;    /*alinhar a borda de fora*/
 }
 
 header{
@@ -332,6 +335,9 @@ footer{
     width: 100.3%;    /*alinhar a borda de fora*/
 
     padding: 5% 0%;
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 footer #contatos{
     display: flex;
@@ -383,6 +389,16 @@ footer .fazemos ul{
     list-style-position: inside; /*deixar a lista organizada*/
     margin: 5px;
     font: 1em var(--paragrafos);
+}
+
+aside .scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+#botao-top img{
+    cursor: pointer;
+    width: 30px;
 }
 
 footer .sociais{
