@@ -44,7 +44,7 @@
                 <button type="button"><a href="https://api.whatsapp.com/send/?phone=5541991368055&text&type=phone_number&app_absent=0" target="_blank">Orçamento pelo whatsapp</a></button>
             </article>
 
-            <article id="responsivo">
+            <article id="responsivo" class="int_hidden">
                 <div>
                     <h1>Desenvolvimento de sites que convertem</h1>
                     <h3>A primeira impressão é a que fica, tenha um site moderno e exclusivo.</h3>
@@ -54,7 +54,7 @@
                 <img src="imagens/site-responsivo.png">
             </article>
             
-            <article id="site">
+            <article id="site" class="int_hidden">
                 <img src="imagens/desenvolvimento.jpg">
                 <div>
                     <h1>O que é um site?</h1>
@@ -64,7 +64,7 @@
                 <img id="imgSite" src="imagens/desenvolvimento.jpg">
             </article>
 
-            <article id="siteEstatico">
+            <article id="siteEstatico" class="int_hidden">
                 <div>
                     <h1 style="text-align: center;">Estamos fazendo apenas o Site Estático</h1>
                     <h3 style="text-align: center;">O que é um site Estático?</h3>
@@ -108,7 +108,7 @@
                 </div>
             </article>-->
 
-            <article id="manutenção">
+            <article id="manutenção" class="int_hidden">
                 <div>
                     <h1>Manutenção e atualização</h1>
                     <h3>Mantemos seu site atualizado e seguro!</h3>
@@ -128,7 +128,7 @@
                 </div>
                     <img src="imagens/site.jpg">
             </article>
-            <article id="nsei">
+            <article id="contRev" class="int_hidden">
                 <img src="imagens/Conteudo_relevante.jpg">
                 <div>
                     <h1>Conteúdos relevantes</h1>
@@ -143,7 +143,7 @@
                             <li>Reduz custos com outras estratégias de marketing.
                         </ul>
                 </div>
-                <img id="imgNsei" src="imagens/#">
+                <img id="imgcontRev" src="imagens/Conteudo_relevante.jpg">
             </article>
         </section>
     </main>
@@ -177,7 +177,7 @@
     </footer>
 
     <script>
-        // Quando user fizer scroll executar a myFuntion
+        /*// Quando user fizer scroll executar a myFuntion
         window.onscroll = function() {myFunction()};
 
         var header = document.getElementById("myHeader");
@@ -191,7 +191,20 @@
         } else {
             header.classList.remove("sticky");
         }
-        }
+        }*/
+
+
+        const observer = new IntersectionObserver( entries => {
+            console.log(entries)
+            entries[0].target.classList.add('.init_hidden-off')
+        }, {
+            threshold: [0, .5, 1] //0 é o primeiro pixel da imagem aparece, .5 a metade da iamgem e  1 qnd aparecer toda imagem 
+        })
+
+        Array.from(document.querySelectorAll('.init_hidden')).forEach(element => {
+            observer.observe(element)  //fazendo um loop
+        }); //para cada elemento que tem a classe ini_hidden, ele vai ser um element
+        
     </script>
 </body>
 </html>

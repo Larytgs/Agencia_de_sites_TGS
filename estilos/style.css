@@ -151,6 +151,13 @@ main section img{
     90%{transform: translate(1px,0px) rotate(0deg);}
     100%{transform: translate(1px,0px) rotate(0deg);}
 }
+main .int_hidden{
+    opacity: 1;
+    transition: all 1s linear;
+}
+.int_hidden-off{
+    opacity: 1;
+}
 
 main #sobre{
     padding: 10px 5px 30px 10px;
@@ -302,7 +309,7 @@ main #manutenção #ulimg img{
     animation: none;
 }
 
-main #nsei{
+main #contRev{
     padding: 10px 5px 30px 10px;
     background-color: #0C243B;
     border-radius: 5px 55px;
@@ -313,7 +320,7 @@ main #nsei{
     box-sizing: border-box;
     width: 100%;    /*alinhar a borda de dentro*/
 }
-main #nsei #imgNsei{
+main #contRev #imgcontRev{
     display: none;
 }
 

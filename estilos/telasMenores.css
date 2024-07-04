@@ -132,14 +132,14 @@
         display: none;
     }
 
-    main #nsei{
+    main #contRev{
         display: inline-block;
         text-align: center;
     }
-    main #nsei img{
+    main #contRev img{
         display: none;
     }
-    main #nsei #imgNsei{
+    main #contRev #imgcontRev{
         display: inline-block;
         text-align: center;
     }
