@@ -159,7 +159,7 @@
         scroll-behavior: smooth; /*rolagem suave*/
     }
     :target {
-        scroll-margin-top: 2em;
+        scroll-margin-top: 5em;
     }
     main #responsivo:target{
         scroll-margin-top: 5em;
