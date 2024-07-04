@@ -232,7 +232,7 @@ main #siteEstat div{
 }
 main #siteEstat div img{
     width: 350px;
-    margin-bottom: 10px; padding: 0%;
+    animation: none;
 }
 main #siteEstat div a{
     color: #4AD295;
@@ -271,6 +271,22 @@ main #manutenção h5{  /*R$ 50,00 - Mensal*/
     text-align: center;
     margin: 10px 30px; padding: 5px;
     border-radius: 20px;
+    
+    animation: tremerh5 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes tremerh5{
+    0%{transform: translate(10px,0px) rotate(1deg);}
+    10%{transform: translate(1px,0px) rotate(0deg);}
+    20%{transform: translate(10px,0px) rotate(1deg);}
+    30%{transform: translate(1px,0px) rotate(0deg);}
+    40%{transform: translate(10px,0px) rotate(1deg);}
+    50%{transform: translate(1px,0px) rotate(0deg);}
+    60%{transform: translate(10px,0px) rotate(1deg);}
+    70%{transform: translate(1px,1px) rotate(0deg);}
+    80%{transform: translate(10px,0px) rotate(1deg);}
+    90%{transform: translate(1px,0px) rotate(0deg);}
+    100%{transform: translate(10px,0px) rotate(1deg);}
 }
 main #manutenção #ulOculta{
     display: none;

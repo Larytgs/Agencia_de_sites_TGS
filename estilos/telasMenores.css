@@ -7,6 +7,10 @@
         width: 97.6%;    /*alinhar a borda de fora*/
     }
 
+    main #siteEstat div img{
+        margin-top: 12%;
+    }
+
     footer{
         width: 99.8%;    /*alinhar a borda de fora*/
     }
@@ -29,6 +33,10 @@
     }
     main section h1{
         text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+    }
+
+    main #siteEstat div img{
+        margin-top: 20%;
     }
 
     main #manutenção h5{ /*R$ 50,00 - Mensal*/
@@ -101,6 +109,7 @@
     }
     main #linkOculto{
         display: block;
+        text-align: center;        
         padding: 5px 10px;
         text-decoration: underline;
     }
@@ -208,6 +217,7 @@
 
     main #linkOculto{
         display: block;
+        text-align: center;
         padding: 5px 10px;
         text-decoration: underline;
     }
