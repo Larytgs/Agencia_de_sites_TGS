@@ -334,6 +334,11 @@ main #contRev #imgcontRev{
     display: none;
 }
 
+main #botao{
+    text-align: center;
+    margin: 20px;
+}
+
 footer{
     background-color: #1A3046;
     color: white;
