@@ -366,7 +366,7 @@ footer .local div img{
 footer .local div a{
     display: flex;
     align-items: center;
-    font: 1em var(--paragrafos);
+    font: 1.2em var(--paragrafos);
 
     color: white;
     text-decoration: none;
@@ -386,7 +386,7 @@ footer .fazemos h2{
 footer .fazemos ul{
     list-style-position: inside; /*deixar a lista organizada*/
     margin: 5px;
-    font: 1em var(--paragrafos);
+    font: 1.2em var(--paragrafos);
 }
 
 aside .scroll-top {
