@@ -158,6 +158,10 @@
     html{
         scroll-behavior: smooth; /*rolagem suave*/
     }
+    body{
+        width: 99.8%;    /*alinhar a borda de fora*/
+        scroll-behavior: smooth; /*rolagem suave*/
+    }
     :target {
         scroll-margin-top: 2em;
     }
@@ -192,7 +196,7 @@
 
     main{
         box-sizing: content-box;
-        width: 95%;    /*alinhar a borda de fora*/
+        width: 96%;    /*alinhar a borda de fora*/
     }
     main section article{
         display: flex;
