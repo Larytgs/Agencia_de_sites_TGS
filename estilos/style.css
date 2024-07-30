@@ -35,7 +35,7 @@ body{
     scroll-behavior: smooth;
 
     box-sizing: content-box;
-    width: 99.7%;    /*alinhar a borda de fora*/
+    width: 99%;    /*alinhar a borda de fora*/
 }
 
 header{
@@ -46,7 +46,7 @@ header{
     align-items: center;
     
     box-sizing: border-box;
-    width: 100.3%;    /*alinhar a borda de fora*/
+    width: 101%;    /*alinhar a borda de fora*/
 
     position: sticky;
     top: -1px;
@@ -330,12 +330,9 @@ footer{
     color: white;
 
     box-sizing: content-box;
-    width: 100.3%;    /*alinhar a borda de fora*/
+    width: 101%;    /*alinhar a borda de fora*/
 
     padding: 5% 0%;
-
-    overflow-y: scroll;
-    scroll-behavior: smooth;
 }
 footer #contatos{
     display: flex;
