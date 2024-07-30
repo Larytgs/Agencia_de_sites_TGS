@@ -288,6 +288,16 @@
         display: flex;
     }
 
+    aside .scroll-top {
+        position: fixed;
+        bottom: 185px;
+        right: 10px;
+    }
+    #botao-top img{
+        cursor: pointer;
+        width: 25px;
+    }
+
 }
 
 @media all and (min-width: 200px ) and (max-width: 319px) { /*para celulares menores*/
