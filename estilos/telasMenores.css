@@ -192,7 +192,7 @@
 
     main{
         box-sizing: content-box;
-        width: 99%;    /*alinhar a borda de fora*/
+        width: 95%;    /*alinhar a borda de fora*/
     }
     main section article{
         display: flex;
@@ -222,7 +222,6 @@
     main section img{
         width: 250px;
     }
-    
 
     main #linkOculto{
         display: block;
