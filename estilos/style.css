@@ -377,6 +377,7 @@ footer .local div a:hover{
 
 footer .fazemos{
     box-sizing: border-box;
+    padding-left: 20px;
 }
 footer .fazemos h2{
     padding:10px;
