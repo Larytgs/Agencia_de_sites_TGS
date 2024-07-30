@@ -196,7 +196,7 @@
 
     main{
         box-sizing: content-box;
-        width: 96%;    /*alinhar a borda de fora*/
+        width: 96.1%;    /*alinhar a borda de fora*/
     }
     main section article{
         display: flex;
