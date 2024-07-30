@@ -418,4 +418,14 @@
         width: 30px; height: 30px;
         padding: 5px;
     }
+
+    aside .scroll-top {
+        position: fixed;
+        bottom: 185px;
+        right: 10px;
+    }
+    #botao-top img{
+        cursor: pointer;
+        width: 20px;
+    }
 }
