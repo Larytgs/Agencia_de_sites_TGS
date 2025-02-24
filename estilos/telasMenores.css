@@ -229,7 +229,7 @@
         display: none;
     }
     header .sociais img{
-        width: 40px; height: 40px;
+        width: 45px; height: 45px;
     }
     .menu{
         display: none;
@@ -272,6 +272,7 @@
     main section h3{
         padding: 5px;
         font-size: 1.2em;
+        text-align: center;
     }
     main section p{
         padding: 5px 10px;
@@ -432,6 +433,7 @@
     main section h3{
         padding: 0px;
         font-size: 1em;
+        text-align: center;
     }
     main section p{
         padding: 5px 10px;
