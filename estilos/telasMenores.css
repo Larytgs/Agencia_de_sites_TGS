@@ -75,11 +75,11 @@
         display: block;
         position: sticky;
         margin: 10px;
-        top: 1px;
+        top: 0;
         text-align: center;
         font-family: var(--paragrafos);
 
-        z-index: 1; /*Assim, ele ficará na frente de tds*/
+        z-index: 100; /*Assim, ele ficará na frente de tds*/
     }
     #menuOculta a{
         text-decoration: none;
@@ -501,7 +501,7 @@
         display: none;
     }
     footer .sociais img{
-        width: 30px; height: 30px;
+        width: 40px; height: 40px;
         padding: 5px;
     }
 
