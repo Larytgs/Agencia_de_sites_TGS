@@ -11,6 +11,9 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Times New Roman', Times, serif;
+
+    /*outline: 1px solid yellow;*/
+    box-sizing: border-box;
 }
 
 :root{
@@ -18,8 +21,9 @@
     --paragrafos: Arial, Verdana, sans-serif;
 }
 
-html{
+html, body{
     scroll-behavior: smooth; /*rolagem suave*/
+    overflow-x: hidden; /*tirar a rolagem horizontal*/
 }
 :target {
     scroll-margin-top: 9em;
@@ -32,25 +36,22 @@ body{
     background-color: #0C243B;
     color: aliceblue;
 
-    scroll-behavior: smooth;
-
     box-sizing: content-box;
-    width: 99%;    /*alinhar a borda de fora*/
 }
 
 header{
     background-color: #1A3046;
-    padding: 10px;
+    padding: 10px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
     box-sizing: border-box;
-    width: 101%;    /*alinhar a borda de fora*/
 
     position: sticky;
     top: -1px;
     z-index: 1; /*Assim, ele ficará na frente de tds*/
+    overflow-x: hidden; /*tirar a rolagem horizontal*/
 }
 header img{
     text-align: center;
@@ -62,31 +63,34 @@ header h1{
     text-align: center;
     font: 2em var(--titulos);
 }
-header .sociais img{
+
+.sociais img{
     width: 50px; height: 50px;
     padding: 10px;
 }
-nav{
+
+
+.menu{
     background-color: #0a1c2c;
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
 }
-nav a{
+.menu a{
     text-decoration: none;
     font-family: var(--paragrafos);
     color: #f0f8ffe0;
     
     padding: 5px 10px;
 }
-nav a:hover{
+.menu a:hover{
     border-radius: 30%;
     background-color: #0C243B;
     padding: 10px;
     align-items: center;
 }
 
-#navOculta{
+#menuOculta{
     display: none;
 }
 
@@ -106,7 +110,6 @@ main div{
     padding: 10px 20px;
 
     box-sizing: border-box;
-    width: 99.5%;    /*alinhar a borda de dentro*/
 }
 main section h1{
     padding: 5px;
@@ -169,12 +172,12 @@ main .int_hidden{
     opacity: 1;
 }
 
+
 main #sobre{
     padding: 10px 5px 30px 10px;
     text-align: center;
 
     box-sizing: border-box;
-    width: 100%;    /*alinhar a borda de dentro*/
 }
 main #sobre h1{
     text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
@@ -210,6 +213,7 @@ main a{
     letter-spacing: .1rem; /*espaçamento entre letras*/
 }
 
+
 main #responsivo{
     padding: 10px 5px 30px 10px;
     background-color: #0C243B;
@@ -219,8 +223,8 @@ main #responsivo{
     align-items: center;
 
     box-sizing: border-box;
-    width: 100%;    /*alinhar a borda de dentro*/
 }
+
 
 main #site{
     padding: 20px 5px 30px 10px;
@@ -229,16 +233,17 @@ main #site{
     align-items: center;
 
     box-sizing: border-box;
-    width: 100%;    /*alinhar a borda de dentro*/
 }
 main #site #imgSite{
     display: none;
 }
 
+
 main #siteEstatico{
     padding: 10px 5px 20px 10px;
     background-color: #0C243B;
     border-radius: 5px 55px;
+    box-sizing: border-box;
 }
 main #siteEstat{
     display: inline-flex;
@@ -273,6 +278,7 @@ main #tipoSite img{
     width: 700px;
 }*/
 
+
 main #manutenção{
     padding: 10px 5px 30px 10px;
 
@@ -280,7 +286,6 @@ main #manutenção{
     align-items: center;
 
     box-sizing: border-box;
-    width: 100%;    /*alinhar a borda de dentro*/
 }
 main #manutenção h5{  /*R$ 50,00 - Mensal*/
     background-color: #4AD295; color: #0C243B;
@@ -305,6 +310,7 @@ main #manutenção #ulimg img{
     animation: none;
 }
 
+/*Conteúdos relevantes*/
 main #contRev{
     padding: 10px 5px 30px 10px;
     background-color: #0C243B;
@@ -314,7 +320,6 @@ main #contRev{
     align-items: center;
 
     box-sizing: border-box;
-    width: 100%;    /*alinhar a borda de dentro*/
 }
 main #contRev #imgcontRev{
     display: none;
@@ -325,31 +330,43 @@ main #botao{
     margin: 20px;
 }
 
+
+aside .scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+#botao-top img{
+    cursor: pointer;
+    width: 30px;
+}
+
+
 footer{
     background-color: #1A3046;
     color: white;
+    padding: 5% 0%;
 
     box-sizing: content-box;
-    width: 101%;    /*alinhar a borda de fora*/
-
-    padding: 5% 0%;
+    overflow-x: hidden; /*tirar a rolagem horizontal*/
 }
 footer #contatos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 0 auto;
     align-items: center;
 
     box-sizing: border-box;
 }
 footer h1{
-    padding: 10px 20px;
+    padding: 10px;
+    text-align: center;
     font: 1.8em var(--titulos);
     text-decoration: underline;
-
-    box-sizing: border-box;
 }
+
 footer .local{
-    padding: 10px;
+    margin: 10px;
 }
 footer .local h2{
     padding: 10px;
@@ -373,8 +390,7 @@ footer .local div a:hover{
 }
 
 footer .fazemos{
-    box-sizing: border-box;
-    padding-left: 20px;
+    margin: 10px;
 }
 footer .fazemos h2{
     padding:10px;
@@ -387,19 +403,8 @@ footer .fazemos ul{
     font: 1.2em var(--paragrafos);
 }
 
-aside .scroll-top {
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-}
-#botao-top img{
-    cursor: pointer;
-    width: 30px;
-}
-
 footer .sociais{
-    text-align: center;
-    padding: 10px 20px;
+    margin: 10px;
 }
 footer .sociais h2{
     padding: 10px;
