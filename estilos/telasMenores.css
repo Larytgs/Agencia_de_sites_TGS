@@ -219,14 +219,14 @@
         scroll-margin-top: 3em;
     }
 
-    header{
-        position: relative;
-    }
     header img{
         width: 100px;
     }
     header h1{
         display: none;
+    }
+    header .sociais{
+        margin-right: -20px;
     }
     header .sociais img{
         width: 45px; height: 45px;
@@ -242,7 +242,7 @@
         text-align: center;
         font-family: var(--paragrafos);
 
-        z-index: 1; /*Assim, ele ficará na frente de tds*/
+        z-index: 100; /*Assim, ele ficará na frente de tds*/
     }
     #menuOculta a{
         text-decoration: none;
