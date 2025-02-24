@@ -346,6 +346,7 @@
     footer #contatos{
         display: grid;
         gap: 20px;
+        margin: auto;
     }
     footer .local{
         margin: 0px;
@@ -359,7 +360,7 @@
     }
 
     footer .fazemos{
-        margin: 0px;
+        margin: auto;
     }
     footer .fazemos ul{
         font: 1.1em var(--paragrafos);
