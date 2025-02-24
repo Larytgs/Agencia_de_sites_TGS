@@ -119,13 +119,11 @@
         display: inline-block;
         text-align: center;
     }
-    main #linkOculto{
-        display: block;
-        text-align: center;        
-        padding: 5px 10px;
-        text-decoration: underline;
+
+    main #siteEstat{
+        display: grid;
     }
-    main #imgLink{
+    main #imgLink img{
         display: none;
     }
 
@@ -286,42 +284,39 @@
         width: 250px;
     }
 
-    main #linkOculto{
-        display: block;
-        text-align: center;
-        padding: 5px 10px;
-        text-decoration: underline;
-    }
-    main #imgLink{
+    #site img{
         display: none;
     }
-    main #linkOculto{
-        display: block;
-    }
-
-    main #site img{
-        display: none;
-    }
-    main #site #imgSite{
+    #site #imgSite{
         display: inline-block;
         text-align: center;
     }
 
-    main #manutenção h5{
+    main #siteEstat{
+        display: grid;
+    }
+    main #siteEstat #imgLink img{
+        display: none;
+    }
+    main #siteEstat #imgLink{
+        display: block;
+    }
+
+    #manutenção h5{
         font-size: 1.1em;
     }
-    main #manutenção #ulimg img{
+    #manutenção #ulimg img{
         display: none;
     }
 
-    main #contRev{
+    #contRev{
         display: inline-block;
         text-align: center;
     }
-    main #contRev img{
+    #contRev img{
         display: none;
     }
-    main #contRev #imgcontRev{
+    #contRev #imgcontRev{
         display: inline-block;
         text-align: center;
     }
@@ -400,7 +395,7 @@
         display: none;
     }
     header .sociais img{
-        width: 30px; height: 30px;
+        width: 40px; height: 40px;
     }
     .menu{
         display: none;
@@ -451,37 +446,36 @@
         display: none;
     }
 
-    main #sobre{
-        padding: 0%;
-    }
-    main #responsivo{
-        padding: 0%;
-    }
-    main #site{
+    #sobre{
         padding: 0%;
     }
 
-    main #linkOculto{
-        display: block;
-        text-align: center;
-        padding: 5px 10px;
-        text-decoration: underline;
+    #responsivo{
+        padding: 0%;
     }
-    main #imgLink{
+
+    #site{
+        padding: 0%;
+    }
+
+    main #siteEstat{
+        display: grid;
+    }
+    main #siteEstat #imgLink img{
         display: none;
     }
-    main #linkOculto{
+    main #siteEstat #imgLink{
         display: block;
     }
 
-    main #manutenção{
+    #manutenção{
         padding: 0%;
     }
-    main #manutenção h5{
+    #manutenção h5{
         font-size: 1em;
         margin-top: 10px;
     }
-    main #manutenção #ulimg img{
+    #manutenção #ulimg img{
         display: none;
     }
     main button{
