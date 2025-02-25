@@ -229,7 +229,7 @@
         margin-right: -20px;
     }
     header .sociais img{
-        width: 45px; height: 45px;
+        width: 50px; height: 50px;
     }
     .menu{
         display: none;
@@ -238,11 +238,11 @@
         display: block;
         position: sticky;
         margin: 10px;
-        top: 1px;
+        top: 1;
         text-align: center;
         font-family: var(--paragrafos);
 
-        z-index: 100; /*Assim, ele ficará na frente de tds*/
+        z-index: 1; /*Assim, ele ficará na frente de tds*/
     }
     #menuOculta a{
         text-decoration: none;
