@@ -1,513 +1,523 @@
 @charset "UTF8";
 
-@media all and (min-width: 900px) and (max-width: 1115px) { /*para telas grandes*/
+@media all and (min-width: 900px) and (max-width: 1115px) {
+  /*para telas grandes*/
 
-    main{
-        width: 80vw;
-    }
+  main {
+    width: 80vw;
+  }
 
-    main #siteEstat div img{
-        margin-top: 12%;
-    }
+  main #siteEstat div img {
+    margin-top: 12%;
+  }
 
-    #contatos h1{
-        display: none;
-    }
-    footer .sociais img{
-        width: 45px; height: 45px;
-        padding: 5px;
-    }
+  #contatos h1 {
+    display: none;
+  }
+  footer .sociais img {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+  }
 }
 
-@media all and (min-width: 769px) and (max-width: 899px) { /*para notebooks*/
-    
-    main{
-        width: 80%;    
-    }
-    main section h1{
-        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
-    }
+@media all and (min-width: 769px) and (max-width: 899px) {
+  /*para notebooks*/
 
-    main #siteEstat div img{
-        margin-top: 20%;
-        width: 200px;
-    }
+  main {
+    width: 80%;
+  }
+  main section h1 {
+    text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+  }
 
-    main #manutenção h5{ /*R$ 50,00 - Mensal*/
-        font-size: 1.4em;
-    }
-    main #manutenção #ulimg img{
-        display: none;
-    }
+  main #siteEstat div img {
+    margin-top: 20%;
+    width: 200px;
+  }
 
+  main #manutenção h5 {
+    /*R$ 50,00 - Mensal*/
+    font-size: 1.4em;
+  }
+  main #manutenção #ulimg img {
+    display: none;
+  }
 
-    footer h1{
-        display: none;
-    }
-    footer .local div a{
-        font: 1.1em var(--titulos);
-    }
-    footer .local div img{
-        width: 25px; height: 25px;
-        padding: 5px;
-    }
-    footer .fazemos ul{
-        font: 1.1em var(--paragrafos);
-    }
-    footer .sociais img{
-        width: 35px; height: 35px;
-        padding: 5px;
-    }
+  footer h1 {
+    display: none;
+  }
+  footer .local div a {
+    font: 1.1em var(--titulos);
+  }
+  footer .local div img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
+  footer .fazemos ul {
+    font: 1.1em var(--paragrafos);
+  }
+  footer .sociais img {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
 }
 
-@media all and (min-width: 481px) and (max-width: 768px) { /*para tablets*/
+@media all and (min-width: 481px) and (max-width: 768px) {
+  /*para tablets*/
 
-    header{
-        position: relative;
-    }
-    header h1{
-        font-size: 1.5em;
-    }
-    .menu{
-        display: none;
-    }
-    #menuOculta{
-        display: block;
-        position: sticky;
-        margin: 10px;
-        top: 0;
-        text-align: center;
-        font-family: var(--paragrafos);
+  header {
+    position: relative;
+  }
+  header h1 {
+    font-size: 1.5em;
+  }
+  .menu {
+    display: none;
+  }
+  #menuOculta {
+    display: block;
+    position: sticky;
+    margin: 10px;
+    top: 0;
+    text-align: center;
+    font-family: var(--paragrafos);
 
-        z-index: 100; /*Assim, ele ficará na frente de tds*/
-    }
-    #menuOculta a{
-        text-decoration: none;
-        font-family: var(--paragrafos);
-        color: #f0f8ffe0;
-        padding: 5px;
-    }
+    z-index: 100; /*Assim, ele ficará na frente de tds*/
+  }
+  #menuOculta a {
+    text-decoration: none;
+    font-family: var(--paragrafos);
+    color: #f0f8ffe0;
+    padding: 5px;
+  }
 
-    main{
-        box-sizing: content-box;
-        width: 95.6%;    /*alinhar a borda de fora*/
-    }
-    main section h1{
-        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
-    }
-    main section p{
-        padding: 5px 10px;
-        font: 1em var(--paragrafos);
-    }
-    main section img{
-        width: 400px;
-    }
+  main {
+    box-sizing: content-box;
+    width: 95.6%; /*alinhar a borda de fora*/
+  }
+  main section h1 {
+    text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+  }
+  main section p {
+    padding: 5px 10px;
+    font: 1em var(--paragrafos);
+  }
+  main section img {
+    width: 400px;
+  }
 
-    main #responsivo{
-        display: inline-block;
-        text-align: center;
-    }
+  main #responsivo {
+    display: inline-block;
+    text-align: center;
+  }
 
-    main #site{
-        display: inline-block;
-        text-align: center;
-    }
-    main #site img{
-        display: none;
-    }
-    main #site #imgSite{
-        display: inline-block;
-        text-align: center;
-    }
+  main #site {
+    display: inline-block;
+    text-align: center;
+  }
+  main #site img {
+    display: none;
+  }
+  main #site #imgSite {
+    display: inline-block;
+    text-align: center;
+  }
 
-    main #siteEstat{
-        display: grid;
-    }
-    main #imgLink img{
-        display: none;
-    }
+  main #siteEstat {
+    display: grid;
+  }
+  main #imgLink img {
+    display: none;
+  }
 
-    main #manutenção{
-        display: inline-block;
-        text-align: center;
-    }
-    main #manutenção h5{
-        font-size: 1.2em;
-    }
-    main #manutenção #ulimg{
-        display: inline-block;
-        text-align: center;   
-    }
-    main #manutenção #ulimg img{
-        display: none;
-    }
+  main #manutenção {
+    display: inline-block;
+    text-align: center;
+  }
+  main #manutenção h5 {
+    font-size: 1.2em;
+  }
+  main #manutenção #ulimg {
+    display: inline-block;
+    text-align: center;
+  }
+  main #manutenção #ulimg img {
+    display: none;
+  }
 
-    main #contRev{
-        display: inline-block;
-        text-align: center;
-    }
-    main #contRev img{
-        display: none;
-    }
-    main #contRev #imgcontRev{
-        display: inline-block;
-        text-align: center;
-    }
+  main #contRev {
+    display: inline-block;
+    text-align: center;
+  }
+  main #contRev img {
+    display: none;
+  }
+  main #contRev #imgcontRev {
+    display: inline-block;
+    text-align: center;
+  }
 
+  aside .scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+  }
+  #botao-top img {
+    cursor: pointer;
+    width: 20px;
+  }
 
-    aside .scroll-top {
-        position: fixed;
-        bottom: 30px;
-        right: 50px;
-    }
-    #botao-top img{
-        cursor: pointer;
-        width: 20px;
-    }
+  footer h1 {
+    display: none;
+  }
 
+  footer .local {
+    margin: 0px;
+  }
+  footer .local div a {
+    font: 1.1em var(--titulos);
+  }
+  footer .local div img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
 
-    footer h1{
-        display: none;
-    }
+  footer .fazemos {
+    margin: 0px;
+  }
+  footer .fazemos ul {
+    font: 1.1em var(--paragrafos);
+  }
 
-    footer .local{
-        margin: 0px;
-    }
-    footer .local div a{
-        font: 1.1em var(--titulos);
-    }
-    footer .local div img{
-        width: 25px; height: 25px;
-        padding: 5px;
-    }
-
-    footer .fazemos{
-        margin: 0px;
-    }
-    footer .fazemos ul{
-        font: 1.1em var(--paragrafos);
-    }
-
-    footer .sociais{
-        margin: 0px;
-    }
-    footer .sociais h2{
-        display: none;
-    }
-    footer .sociais{
-        display: grid;
-        margin: 10px;
-    }
-    footer .sociais img{
-        width: 35px; height: 35px;
-        padding: 5px;
-    }
+  footer .sociais {
+    margin: 0px;
+  }
+  footer .sociais h2 {
+    display: none;
+  }
+  footer .sociais {
+    display: grid;
+    margin: 10px;
+  }
+  footer .sociais img {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
 }
 
-@media all and (min-width: 320px ) and (max-width: 480px) { /*para celulares*/
-    html{
-        scroll-behavior: smooth; /*rolagem suave*/
-    }
-    body{
-        width: 99.8%;    /*alinhar a borda de fora*/
-        scroll-behavior: smooth; /*rolagem suave*/
-    }
-    :target {
-        scroll-margin-top: 2em;
-    }
-    main #responsivo:target{ /*sobre*/
-        scroll-margin-top: 3em;
-    }
+@media all and (min-width: 320px) and (max-width: 480px) {
+  /*para celulares*/
+  html {
+    scroll-behavior: smooth; /*rolagem suave*/
+  }
+  body {
+    width: 99.8%; /*alinhar a borda de fora*/
+    scroll-behavior: smooth; /*rolagem suave*/
+  }
+  :target {
+    scroll-margin-top: 2em;
+  }
+  main #responsivo:target {
+    /*sobre*/
+    scroll-margin-top: 3em;
+  }
 
-    header img{
-        width: 100px;
-    }
-    header h1{
-        display: none;
-    }
-    header .sociais{
-        margin-right: -20px;
-    }
-    header .sociais img{
-        width: 50px; height: 50px;
-    }
-    .menu{
-        display: none;
-    }
-    #menuOculta{
-        display: block;
-        position: sticky;
-        margin: 10px;
-        top: 1;
-        text-align: center;
-        font-family: var(--paragrafos);
+  header img {
+    width: 100px;
+  }
+  header h1 {
+    display: none;
+  }
+  header .sociais {
+    margin-right: -20px;
+  }
+  header .sociais img {
+    width: 50px;
+    height: 50px;
+  }
+  .menu {
+    display: none;
+  }
+  #menuOculta {
+    display: block;
+    position: sticky;
+    margin: 10px;
+    top: 1;
+    text-align: center;
+    font-family: var(--paragrafos);
 
-        z-index: 1; /*Assim, ele ficará na frente de tds*/
-    }
-    #menuOculta a{
-        text-decoration: none;
-        font-family: var(--paragrafos);
-        color: #f0f8ffe0;
-        padding: 5px;
-    }
+    z-index: 1; /*Assim, ele ficará na frente de tds*/
+  }
+  #menuOculta a {
+    text-decoration: none;
+    font-family: var(--paragrafos);
+    color: #f0f8ffe0;
+    padding: 5px;
+  }
 
-    main{
-        box-sizing: content-box;
-        width: 96.1%;    /*alinhar a borda de fora*/
-    }
-    main section article{
-        display: flex;
-        flex-direction: column;
-    }
-    main section h1{
-        padding: 5px;
-        font-size: 1.3em;
-        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
-        text-align: center;
-    }
-    main section h2{
-        padding: 5px;
-        font-size: 1.2em;
-    }
-    main section h3{
-        padding: 5px;
-        font-size: 1.2em;
-        text-align: center;
-    }
-    main section p{
-        padding: 5px 10px;
-        font: 1em var(--paragrafos);
-    }
-    main section ul{
-        font: 1em var(--paragrafos);
-    }
-    main section img{
-        width: 250px;
-    }
+  main {
+    box-sizing: content-box;
+    width: 96.1%; /*alinhar a borda de fora*/
+  }
+  main section article {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Todos os h1 */
+  main section h1 {
+    padding: 5px;
+    font-size: 1.4em;
+    text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+    text-align: center;
+  }
+  main section h2 {
+    padding: 5px;
+    font-size: 1.2em;
+  }
+  /* Todos os h3 */
+  main section h3 {
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  main section p {
+    padding: 5px 0px; /*arrumar aqui*/
+    font: 1em var(--paragrafos);
+  }
+  main section ul {
+    font: 1em var(--paragrafos);
+  }
+  main section img {
+    width: 250px;
+  }
 
-    #site img{
-        display: none;
-    }
-    #site #imgSite{
-        display: inline-block;
-        text-align: center;
-    }
+  #site img {
+    display: none;
+  }
+  #site #imgSite {
+    display: inline-block;
+    text-align: center;
+  }
 
-    main #siteEstat{
-        display: grid;
-    }
-    main #siteEstat #imgLink img{
-        display: none;
-    }
-    main #siteEstat #imgLink{
-        display: block;
-    }
+  main #siteEstat {
+    display: grid;
+  }
+  main #siteEstat #imgLink img {
+    width: 250px;
+  }
+  main #siteEstat #imgLink {
+    display: block;
+  }
 
-    #manutenção h5{
-        font-size: 1.1em;
-    }
-    #manutenção #ulimg img{
-        display: none;
-    }
+  #manutenção h5 {
+    font-size: 1.1em;
+  }
+  #manutenção #ulimg img {
+    display: none;
+  }
 
-    #contRev{
-        display: inline-block;
-        text-align: center;
-    }
-    #contRev img{
-        display: none;
-    }
-    #contRev #imgcontRev{
-        display: inline-block;
-        text-align: center;
-    }
+  #contRev {
+    display: inline-block;
+    text-align: center;
+  }
+  #contRev img {
+    display: none;
+  }
+  #contRev #imgcontRev {
+    display: inline-block;
+    text-align: center;
+  }
 
+  aside .scroll-top {
+    position: fixed;
+    bottom: 85px;
+    right: 25px;
+  }
+  #botao-top img {
+    cursor: pointer;
+    width: 20px;
+  }
 
-    aside .scroll-top {
-        position: fixed;
-        bottom: 85px;
-        right: 25px;
-    }
-    #botao-top img{
-        cursor: pointer;
-        width: 20px;
-    }
+  footer h1 {
+    display: block;
+  }
 
+  footer #contatos {
+    display: grid;
+    gap: 20px;
+    margin: auto;
+  }
+  footer .local {
+    margin: 0px;
+  }
+  footer .local div a {
+    font: 1.1em var(--titulos);
+  }
+  footer .local div img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
 
-    
-    footer h1{
-        display: block;
-    }
+  footer .fazemos {
+    margin: auto;
+  }
+  footer .fazemos ul {
+    font: 1.1em var(--paragrafos);
+  }
 
-    footer #contatos{
-        display: grid;
-        gap: 20px;
-        margin: auto;
-    }
-    footer .local{
-        margin: 0px;
-    }
-    footer .local div a{
-        font: 1.1em var(--titulos);
-    }
-    footer .local div img{
-        width: 25px; height: 25px;
-        padding: 5px;
-    }
-
-    footer .fazemos{
-        margin: auto;
-    }
-    footer .fazemos ul{
-        font: 1.1em var(--paragrafos);
-    }
-
-    footer .sociais{
-        display: flex;
-        margin: 0px;
-    }
-    footer .sociais h2{
-        display: none;
-    }
-    footer .sociais{
-        display: flex;
-        text-align: center;
-        margin: auto;
-    }
-    footer .sociais img{
-        width: 35px; height: 35px;
-        padding: 5px;
-        display: flex;
-    }
-
+  footer .sociais {
+    display: flex;
+    margin: 0px;
+  }
+  footer .sociais h2 {
+    display: none;
+  }
+  footer .sociais {
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  footer .sociais img {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    display: flex;
+  }
 }
 
-@media all and (min-width: 200px ) and (max-width: 319px) { /*para celulares menores*/
-    
-    
+@media all and (min-width: 200px) and (max-width: 319px) {
+  /*para celulares menores*/
 
-    header{
-        position: relative;
-    }
-    header img{
-        width: 100px;
-    }
-    header h1{
-        display: none;
-    }
-    header .sociais img{
-        width: 40px; height: 40px;
-    }
-    .menu{
-        display: none;
-    }
+  header {
+    position: relative;
+  }
+  header img {
+    width: 100px;
+  }
+  header h1 {
+    display: none;
+  }
+  header .sociais img {
+    width: 40px;
+    height: 40px;
+  }
+  .menu {
+    display: none;
+  }
 
-    #menuOculta{
-        display: block;
-        position: sticky;
-        top: 1px;
-        text-align: center;
-        pad: 0%;
-        font-family: var(--paragrafos);
-    }
+  #menuOculta {
+    display: block;
+    position: sticky;
+    top: 1px;
+    text-align: center;
+    pad: 0%;
+    font-family: var(--paragrafos);
+  }
 
-    main{
-        box-sizing: content-box;
-        padding: 0%;
-        width: 0%;
-    }
-    main div{
-        margin: 0%;
-        padding: 0%;
-    }
-    main section h1{
-        padding: 0px;
-        font-size: 1.1em;
-        text-align: center;
-        text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
-    }
-    main section h2{
-        padding: 0px;
-        font-size: 1em;
-    }
-    main section h3{
-        padding: 0px;
-        font-size: 1em;
-        text-align: center;
-    }
-    main section p{
-        padding: 5px 10px;
-        font: 0.9em var(--paragrafos);
-    
-        border: 2px solid ;
-    }
-    main section ul{
-        font: 0.9em var(--paragrafos);
-    }
-    main img{
-        display: none;
-    }
+  main {
+    box-sizing: content-box;
+    padding: 0%;
+    width: 0%;
+  }
+  main div {
+    margin: 0%;
+    padding: 0%;
+  }
+  main section h1 {
+    padding: 0px;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+  }
+  main section h2 {
+    padding: 0px;
+    font-size: 1em;
+  }
+  main section h3 {
+    padding: 0px;
+    font-size: 1em;
+    text-align: center;
+  }
+  main section p {
+    padding: 5px 10px;
+    font: 0.9em var(--paragrafos);
 
-    #sobre{
-        padding: 0%;
-    }
+    border: 2px solid;
+  }
+  main section ul {
+    font: 0.9em var(--paragrafos);
+  }
+  main img {
+    display: none;
+  }
 
-    #responsivo{
-        padding: 0%;
-    }
+  #sobre {
+    padding: 0%;
+  }
 
-    #site{
-        padding: 0%;
-    }
+  #responsivo {
+    padding: 0%;
+  }
 
-    main #siteEstat{
-        display: grid;
-    }
-    main #siteEstat #imgLink img{
-        display: none;
-    }
-    main #siteEstat #imgLink{
-        display: block;
-    }
+  #site {
+    padding: 0%;
+  }
 
-    #manutenção{
-        padding: 0%;
-    }
-    #manutenção h5{
-        font-size: 1em;
-        margin-top: 10px;
-    }
-    #manutenção #ulimg img{
-        display: none;
-    }
-    main button{
-        background-color: #4AD295;
-        padding: 5px;
-        border-radius: 20px;
-        font-size: 0.9em;
-    }
+  main #siteEstat {
+    display: grid;
+  }
+  main #siteEstat #imgLink img {
+    display: none;
+  }
+  main #siteEstat #imgLink {
+    display: block;
+  }
 
-    footer h1{
-        display: none;
-    }
-    footer .fazemos{
-        display: none;
-    }
-    footer .sociais h2{
-        display: none;
-    }
-    footer .sociais img{
-        width: 40px; height: 40px;
-        padding: 5px;
-    }
+  #manutenção {
+    padding: 0%;
+  }
+  #manutenção h5 {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  #manutenção #ulimg img {
+    display: none;
+  }
+  main button {
+    background-color: #4ad295;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
 
-    aside .scroll-top {
-        position: fixed;
-        bottom: 185px;
-        right: 10px;
-    }
-    #botao-top img{
-        cursor: pointer;
-        width: 20px;
-    }
+  footer h1 {
+    display: none;
+  }
+  footer .fazemos {
+    display: none;
+  }
+  footer .sociais h2 {
+    display: none;
+  }
+  footer .sociais img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+
+  aside .scroll-top {
+    position: fixed;
+    bottom: 185px;
+    right: 10px;
+  }
+  #botao-top img {
+    cursor: pointer;
+    width: 20px;
+  }
 }
