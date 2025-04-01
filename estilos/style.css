@@ -393,6 +393,11 @@ main #manutenção #ulimg img {
 }
 
 /*Pagina Valores*/
+
+main #sobre2 h1 {
+  font-size: 1.6em;
+  text-align: center;
+}
 main #site2 {
   padding: 20px 5px 30px 10px;
   background-color: #0c243b;
@@ -403,6 +408,9 @@ main #site2 {
   align-items: center;
 
   box-sizing: border-box;
+}
+main #site2 h2 {
+  font-size: 1.4em;
 }
 main #site2 ul {
   list-style-type: none;
@@ -446,6 +454,9 @@ main #manutenção2 ol {
 }
 main #manutenção2 ul {
   font-size: 1.2em;
+}
+main #manutenção2 .liManut2 {
+  font-size: 1.3em;
 }
 
 main #hospedagem {
