@@ -413,7 +413,6 @@ main #site2 h2 {
 }
 main #site2 ul {
   list-style-type: none;
-  line-height: 1.6em;
   font: 1.1em var(--paragrafos);
 }
 
@@ -453,6 +452,7 @@ main #manutenção2 ol {
 }
 main #manutenção2 ul {
   font-size: 1.1em;
+  line-height: 1.2em;
 }
 main #manutenção2 .liManut2 {
   font-size: 1.3em;
