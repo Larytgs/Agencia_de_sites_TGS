@@ -336,9 +336,21 @@
   main #site2 p {
     font-size: 1.1em;
   }
+  main #site2 ul {
+    font: 1.1em var(--paragrafos);
+  }
+  main #site2 ul li {
+    margin-top: 5%;
+  }
   main #manutenção2 h2,
   h3 {
     font-size: 1.3em;
+  }
+  main #manutenção2 ul {
+    font-size: 1.1em;
+  }
+  main #manutenção2 ul li {
+    margin-top: 5%;
   }
   main #manutenção2 p {
     font-size: 1.1em;

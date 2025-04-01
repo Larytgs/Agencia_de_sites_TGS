@@ -412,7 +412,7 @@ main #site2 p {
   font: 1.2em var(--paragrafos);
 }
 main #site2 ul {
-  font: 1.1em var(--paragrafos);
+  font: 1.3em var(--paragrafos);
 }
 
 main #manutenção2 {
@@ -433,8 +433,8 @@ main #manutenção2 ol {
   margin-top: 20px;
 }
 main #manutenção2 ul {
-  font-size: 1.1em;
-  line-height: 1.2em;
+  font: 1.3em var(--paragrafos);
+  line-height: 1.3em;
 }
 main #manutenção2 .liManut2 {
   font-size: 1.3em;
