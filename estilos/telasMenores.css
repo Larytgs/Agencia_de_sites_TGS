@@ -274,7 +274,6 @@
   /* Todos os h1 */
   main section h1 {
     padding: 5px;
-    font-size: 1.5em;
     text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
     text-align: center;
   }

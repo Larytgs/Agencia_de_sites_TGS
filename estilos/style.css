@@ -393,7 +393,6 @@ main #manutenção #ulimg img {
 }
 
 /*Pagina Valores*/
-
 main #sobre2 h1 {
   font-size: 1.6em;
   text-align: center;
@@ -415,7 +414,7 @@ main #site2 h2 {
 main #site2 ul {
   list-style-type: none;
   line-height: 1.6em;
-  font: 1.2em var(--paragrafos);
+  font: 1.1em var(--paragrafos);
 }
 
 main #manutenção2 {
@@ -453,7 +452,7 @@ main #manutenção2 ol {
   margin-top: 20px;
 }
 main #manutenção2 ul {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 main #manutenção2 .liManut2 {
   font-size: 1.3em;
@@ -475,7 +474,7 @@ main #newPage h3 {
   text-align: left;
 }
 main #newPage p {
-  font: 1.2em var(--paragrafos);
+  font: 1.1em var(--paragrafos);
 }
 /*Pagina valores*/
 main #hospedagem {
@@ -496,7 +495,7 @@ main #hospedagem h3 {
   text-align: left;
 }
 main #hospedagem p {
-  font: 1.2em var(--paragrafos);
+  font: 1.1em var(--paragrafos);
 }
 
 /*Conteúdos relevantes*/
