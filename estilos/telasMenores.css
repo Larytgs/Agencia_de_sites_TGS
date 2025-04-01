@@ -8,7 +8,7 @@
   }
 
   main #siteEstat div img {
-    margin-top: 12%;
+    margin-top: 30%;
   }
 
   #contatos h1 {
@@ -32,8 +32,8 @@
   }
 
   main #siteEstat div img {
-    margin-top: 20%;
-    width: 200px;
+    margin-top: 30%;
+    width: 300px;
   }
 
   main #manutenção h5 {
@@ -103,7 +103,7 @@
   }
   main section p {
     padding: 5px 10px;
-    font: 1em var(--paragrafos);
+    font: 1.1em var(--paragrafos);
   }
   main section img {
     width: 400px;
@@ -128,6 +128,9 @@
 
   main #siteEstat {
     display: grid;
+  }
+  main #siteEstat #p2Estat {
+    margin-bottom: -30px;
   }
   main #imgLink img {
     display: none;
@@ -308,10 +311,13 @@
     display: grid;
   }
   main #siteEstat #imgLink img {
-    width: 250px;
+    display: none;
   }
   main #siteEstat #imgLink {
     display: block;
+  }
+  main #siteEstat #p2Estat {
+    margin-bottom: -30px;
   }
 
   #manutenção h5 {

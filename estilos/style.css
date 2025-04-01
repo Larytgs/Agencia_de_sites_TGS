@@ -130,11 +130,6 @@ main section h3 {
   font: 1.5em var(--titulos);
   letter-spacing: 0.1rem; /*espaçamento entre letras*/
 }
-main section p {
-  /* Todos os p */
-  padding: 5px 10px;
-  font: 1.2em var(--paragrafos);
-}
 main section ul {
   /* Todos as listas */
   font: 1.1em var(--paragrafos);
@@ -209,6 +204,10 @@ main #sobre {
 main #sobre h1 {
   text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
 }
+main #sobre p {
+  padding: 5px 10px;
+  font: 1.2em var(--paragrafos);
+}
 main button {
   background-color: #4ad295;
   padding: 10px;
@@ -272,17 +271,39 @@ main #responsivo {
 
   box-sizing: border-box;
 }
+main #responsivo p {
+  padding: 5px 10px;
+  font: 1.2em var(--paragrafos);
+}
 
 main #site {
-  padding: 20px 5px 30px 10px;
+  padding: 20px 5px 10px 10px;
 
   display: flex;
   align-items: center;
 
   box-sizing: border-box;
 }
+main #site p {
+  max-width: 1500px;
+  padding: 5px 10px;
+  font: 1.2em var(--paragrafos);
+}
 main #site #imgSite {
   display: none;
+}
+main #siteh5 {
+  /*Valores do projeto*/
+  background-color: #4ad295;
+  color: #0c243b;
+  font: 800 1.2em var(--titulos);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 400px;
+
+  box-shadow: 1px 3px 2px 2px rgba(0, 0, 0, 0.479);
 }
 
 main #siteEstatico {
@@ -299,13 +320,16 @@ main #siteEstat div {
   padding: 0%;
   align-items: center;
 }
+main #siteEstat p {
+  padding: 5px 10px;
+  font: 1.2em var(--paragrafos);
+}
+main #siteEstat #p2Estat {
+  margin-bottom: -10px;
+}
 main #siteEstat div img {
   width: 350px;
   animation: none;
-}
-main #siteEstat div li {
-  color: black;
-  list-style-type: none;
 }
 
 main #imgLink {
@@ -318,6 +342,7 @@ main #imgLink a {
 main #linkOculto {
   display: none;
 }
+
 /*main #tipoSite div div{
     display: inline-flex;
 }
@@ -334,21 +359,22 @@ main #manutenção {
 
   box-sizing: border-box;
 }
-main #manutençãi #divVal {
-  display: flex;
-}
 main #manutenção h5 {
   /*R$ 50,00 - Mensal*/
   background-color: #4ad295;
   color: #0c243b;
   font: 800 1.5em var(--titulos);
   text-align: center;
-  margin: 10px 30px;
-  padding: 5px;
+  margin: 10px;
+  padding: 10px 15px;
   border-radius: 20px;
   max-width: 400px;
 
   box-shadow: 1px 3px 2px 2px rgba(0, 0, 0, 0.479);
+}
+main #manutenção p {
+  padding: 5px 10px;
+  font: 1.2em var(--paragrafos);
 }
 main #manutenção #ulOculta {
   display: none;
@@ -360,7 +386,7 @@ main #manutenção #ulimg {
 }
 main #manutenção #ulimg img {
   min-width: 200px;
-  max-width: 350px;
+  max-width: 250px;
   margin-left: 50px;
   border: none;
   animation: none;
@@ -381,11 +407,8 @@ main #site2 {
 main #site2 ul {
   list-style-type: none;
   line-height: 1.6em;
+  font: 1.2em var(--paragrafos);
 }
-/* main #site2 img {
-  min-width: 200px;
-  max-width: 350px;
-} */
 
 main #manutenção2 {
   padding: 10px 5px 30px 10px;
@@ -397,7 +420,8 @@ main #manutenção2 {
 
   box-sizing: border-box;
 }
-main #manutenção2 h2 {
+main #manutenção2 h2,
+h3 {
   text-align: center;
 }
 main #manutenção2 h5 {
@@ -413,6 +437,9 @@ main #manutenção2 h5 {
 
   box-shadow: 1px 3px 2px 2px rgba(0, 0, 0, 0.479);
 }
+main #manutenção2 p {
+  font: 1.2em var(--paragrafos);
+}
 main #manutenção2 ol {
   list-style-type: none;
   margin-top: 20px;
@@ -421,18 +448,31 @@ main #manutenção2 ul {
   font-size: 1.2em;
 }
 
-/* main #manutenção2 #ulimg {
+main #hospedagem {
+  padding: 20px 5px 30px 10px;
+  background-color: #0c243b;
+  border-radius: 5px 55px;
+  margin-top: 20px;
+
   display: flex;
   align-items: center;
-  padding: 0%;
+
+  box-sizing: border-box;
 }
-main #manutenção2 #ulimg img {
-  min-width: 200px;
-  max-width: 350px;
-  margin-left: 50px;
-  border: none;
-  animation: none;
-} */
+main #hospedagem h2 {
+  text-align: center;
+}
+main #hospedagem h3 {
+  text-align: left;
+}
+main #hospedagem p {
+  font: 1.2em var(--paragrafos);
+}
+main #hospedagem ul {
+  list-style-type: none;
+  line-height: 1.6em;
+  font: 1.2em var(--paragrafos);
+}
 
 /*Conteúdos relevantes*/
 main #contRev {
@@ -444,6 +484,10 @@ main #contRev {
   align-items: center;
 
   box-sizing: border-box;
+}
+main #contRev p {
+  padding: 5px 10px;
+  font: 1.2em var(--paragrafos);
 }
 main #contRev #imgcontRev {
   display: none;
