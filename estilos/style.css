@@ -314,6 +314,7 @@ main #siteEstatico {
 }
 main #siteEstat {
   display: inline-flex;
+  align-items: center;
 }
 main #siteEstat div {
   margin: 0%;
@@ -450,7 +451,7 @@ main #newPage {
   box-sizing: border-box;
 }
 main #newPage h2 {
-  text-align: center;
+  text-align: left;
 }
 main #newPage h3 {
   text-align: left;

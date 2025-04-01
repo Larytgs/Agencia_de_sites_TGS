@@ -359,6 +359,9 @@
   main #newPage {
     padding: 20px 20px;
   }
+  main #newPage h2 {
+    text-align: center;
+  }
 
   #contRev {
     display: inline-block;
