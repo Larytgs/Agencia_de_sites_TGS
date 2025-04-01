@@ -75,6 +75,7 @@ header h1 {
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
+  text-align: center;
 }
 .menu a {
   text-decoration: none;
