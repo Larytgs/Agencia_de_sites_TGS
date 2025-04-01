@@ -274,18 +274,18 @@
   /* Todos os h1 */
   main section h1 {
     padding: 5px;
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
     text-align: center;
   }
   main section h2 {
     padding: 5px;
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   /* Todos os h3 */
   main section h3 {
     padding: 5px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
   }
   main section p {
