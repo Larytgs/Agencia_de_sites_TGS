@@ -458,7 +458,26 @@ main #manutenção2 ul {
 main #manutenção2 .liManut2 {
   font-size: 1.3em;
 }
+/*Pagina valores*/
+main #newPage {
+  padding: 20px 50px;
+  background-color: #0c243b;
+  border-radius: 5px 55px;
+  margin-top: 20px;
 
+  align-items: center;
+  box-sizing: border-box;
+}
+main #newPage h2 {
+  text-align: center;
+}
+main #newPage h3 {
+  text-align: left;
+}
+main #newPage p {
+  font: 1.2em var(--paragrafos);
+}
+/*Pagina valores*/
 main #hospedagem {
   padding: 20px 5px 30px 10px;
   background-color: #0c243b;
@@ -477,11 +496,6 @@ main #hospedagem h3 {
   text-align: left;
 }
 main #hospedagem p {
-  font: 1.2em var(--paragrafos);
-}
-main #hospedagem ul {
-  list-style-type: none;
-  line-height: 1.6em;
   font: 1.2em var(--paragrafos);
 }
 

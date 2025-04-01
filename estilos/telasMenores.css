@@ -341,6 +341,10 @@
   main #manutenção2 p {
     font-size: 1.1em;
   }
+  /*Pagina valores*/
+  main #newPage {
+    padding: 20px 20px;
+  }
 
   #contRev {
     display: inline-block;
