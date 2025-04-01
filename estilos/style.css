@@ -196,7 +196,7 @@ main .int_hidden {
 }
 
 main #sobre {
-  padding: 10px 5px 30px 10px;
+  padding: 10px 5px 30px 5px;
   text-align: center;
 
   box-sizing: border-box;
@@ -262,7 +262,7 @@ main a {
 }
 
 main #responsivo {
-  padding: 10px 5px 30px 10px;
+  padding: 10px 5px 30px 5px;
   background-color: #0c243b;
   border-radius: 5px 55px;
 
@@ -277,7 +277,7 @@ main #responsivo p {
 }
 
 main #site {
-  padding: 20px 5px 10px 10px;
+  padding: 20px 5px 10px 5px;
 
   display: flex;
   align-items: center;
@@ -307,7 +307,7 @@ main #siteh5 {
 }
 
 main #siteEstatico {
-  padding: 10px 5px 20px 10px;
+  padding: 10px 5px 20px 5px;
   background-color: #0c243b;
   border-radius: 5px 55px;
   box-sizing: border-box;
@@ -352,7 +352,7 @@ main #tipoSite img{
 }*/
 
 main #manutenção {
-  padding: 10px 5px 30px 10px;
+  padding: 10px 5px 30px 5px;
 
   display: flex;
   align-items: center;
@@ -399,7 +399,7 @@ main #sobre2 h1 {
   text-align: center;
 }
 main #site2 {
-  padding: 20px 5px 30px 10px;
+  padding: 20px 5px 30px 5px;
   background-color: #0c243b;
   border-radius: 5px 55px;
   margin-bottom: 20px;
@@ -419,7 +419,7 @@ main #site2 ul {
 }
 
 main #manutenção2 {
-  padding: 10px 5px 30px 10px;
+  padding: 10px 5px 30px 5px;
   background-color: #0c243b;
   border-radius: 5px 55px;
 
