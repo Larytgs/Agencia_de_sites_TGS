@@ -425,9 +425,6 @@
     padding: 5px;
   }
 
-  footer .fazemos {
-    margin: auto;
-  }
   footer .fazemos ul {
     font: 1.1em var(--paragrafos);
   }
