@@ -248,13 +248,13 @@
   }
   #menuOculta {
     display: block;
-    position: sticky;
+    position: relative;
     margin: 10px;
-    top: 1;
+    top: 0;
     text-align: center;
     font-family: var(--paragrafos);
 
-    z-index: 1; /*Assim, ele ficará na frente de tds*/
+    /*z-index: 999; /*Assim, ele ficará na frente de tds*/
   }
   #menuOculta a {
     text-decoration: none;
@@ -262,6 +262,19 @@
     color: #f0f8ffe0;
     padding: 5px;
   }
+
+  /* .menu-oculta {
+    position: relative;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .menu-oculta.fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  } */
 
   main {
     box-sizing: content-box;
