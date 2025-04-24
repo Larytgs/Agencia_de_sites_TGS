@@ -265,7 +265,8 @@
 
   main {
     box-sizing: content-box;
-    width: 96.1%; /*alinhar a borda de fora*/
+    width: 100vw; /*alinhar a borda de fora*/
+    padding: 0%;
   }
   main section article {
     display: flex;
