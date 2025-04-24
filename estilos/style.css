@@ -213,6 +213,7 @@ main button {
   background-color: #4ad295;
   padding: 10px;
   border-radius: 20px;
+  margin: 0px 20px;
 }
 main button:hover {
   box-shadow: 2px 2px 1px 1px #0a1c2c;
