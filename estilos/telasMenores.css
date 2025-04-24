@@ -293,7 +293,7 @@
   }
   main section ul {
     font: 1em var(--paragrafos);
-    background-color: #4ad295c4;
+    background-color: #0074ba;
   }
   main section img {
     width: 250px;
@@ -462,6 +462,12 @@
     pad: 0%;
     font-family: var(--paragrafos);
   }
+  #menuOculta a {
+    text-decoration: none;
+    font-family: var(--paragrafos);
+    color: #f0f8ffe0;
+    padding: 5px;
+  }
 
   main {
     box-sizing: content-box;
@@ -472,30 +478,29 @@
     margin: 0%;
     padding: 0%;
   }
+  /* Todos os h1 */
   main section h1 {
-    padding: 0px;
-    font-size: 1.1em;
-    text-align: center;
+    padding: 5px;
     text-transform: capitalize; /*tds as primeiras letras, de cada palavra, estão em maiúsculo e o restante minúsculo*/
+    text-align: center;
   }
   main section h2 {
-    padding: 0px;
-    font-size: 1em;
+    padding: 5px;
+    font-size: 1.3em;
   }
+  /* Todos os h3 */
   main section h3 {
-    padding: 0px;
-    font-size: 1em;
+    padding: 5px;
+    font-size: 1.3em;
     text-align: center;
   }
   main section p {
-    padding: 5px 10px;
-    font: 0.9em var(--paragrafos);
-
-    border: 2px solid;
+    padding: 5px 0px; /*arrumar aqui*/
+    font: 1em var(--paragrafos);
   }
   main section ul {
-    font: 0.9em var(--paragrafos);
-    background-color: #4ad295c4;
+    font: 1em var(--paragrafos);
+    background-color: #0074ba;
   }
   main img {
     display: none;
@@ -503,6 +508,36 @@
 
   #sobre {
     padding: 0%;
+  }
+
+  /*Pagina valores*/
+  main #sobre2 h1 {
+    font-size: 1.4em;
+  }
+  main #site2 h2 {
+    font-size: 1.3em;
+  }
+  main #site2 p {
+    font-size: 1.1em;
+  }
+  main #site2 ul {
+    font: 1.1em var(--paragrafos);
+  }
+  main #site2 ul li {
+    margin-top: 5%;
+  }
+  main #manutenção2 h2,
+  h3 {
+    font-size: 1.3em;
+  }
+  main #manutenção2 ul {
+    font-size: 1.1em;
+  }
+  main #manutenção2 ul li {
+    margin-top: 5%;
+  }
+  main #manutenção2 p {
+    font-size: 1.1em;
   }
 
   #responsivo {
